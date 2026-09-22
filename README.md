@@ -1,14 +1,44 @@
-# Bookwyrm Dioramas
+# Bookwyrm Skills and Workflows
 
-A working draft of a reusable skill for building 3D dioramas progressively from concept art, with lessons from the first Smaug/Dale attempt, the layered Dale restart, and Moria.
+A shared home for how Bookwyrm work gets done: reusable skills, supporting instructions, practical tools, and lessons learned across projects.
 
-- [Layered Diorama skill](skills/layered-diorama/SKILL.md): concept, element breakdown, bottom-up construction, component development, integration, and print engineering.
-- [Lessons log](skills/layered-diorama/references/lessons.md): 15 observations and practices, with evidence scope and remaining uncertainties.
+The repository began with the layered diorama workflow and retains the `bookwyrm-dioramas` repository name. Its scope can grow to include other Bookwyrm-related skills and the resources they share.
+
+## Current contents
+
+- [Layered Diorama skill](skills/layered-diorama/SKILL.md): develop 3D dioramas from concept art through element breakdown, bottom-up construction, component development, integration, and print engineering.
+- [Diorama lessons log](skills/layered-diorama/references/lessons.md): observations from the first Smaug/Dale attempt, the layered Dale restart, and Moria, including evidence and remaining uncertainties.
 - [Working records](skills/layered-diorama/references/working-records.md): checkpoints, attempt boundaries, focused-reference requests, and new lesson entries.
 - [Payload management](skills/layered-diorama/references/payload-management.md): compact visual reviews, bounded tool output, and recovery from oversized requests.
 
-The draft includes prompts for focused concept-art crops when revisions stop converging, and rules to keep abandoned design choices out of a new attempt while retaining useful technical lessons.
+The diorama skill is a working draft. Its recorded visual and geometry improvements do not establish print readiness; physical fabrication and assembly remain an open validation stage. Storing a skill here does not install it automatically.
 
-This repository contains skill instructions, supporting text, and skill metadata only. Artwork, models, renders, project scripts, raw audits, and original project notes remain outside it. Local source paths in the lessons log identify historical evidence; they are not required files or repository links.
+## Organization
 
-Visual progress and recorded geometry checks do not establish print readiness. Physical fabrication and assembly remain an open validation stage. The skill is a draft and has not been installed automatically.
+Only `skills/` exists today. Add other directories when there is concrete content for them; empty placeholders are unnecessary.
+
+| Directory | Purpose |
+| --- | --- |
+| `skills/` | Individual skills, each in a named folder with a `SKILL.md` entry point and its supporting resources. |
+| `templates/` | Formats shared by multiple skills, such as project briefs, checkpoints, review records, and handoffs. |
+| `scripts/` | Shared utilities for validation, contact sheets, file checks, and other repeated tasks. |
+| `docs/` | Cross-project principles, workflow explanations, and repository maintenance guidance. |
+| `examples/` | Small, curated examples of useful inputs and outputs, without large project assets. |
+| `evaluations/` | Representative tasks and review criteria for checking whether skills produce the intended behavior. |
+
+Keep resources used by one skill inside that skill's folder. Move a resource into a shared directory only when multiple skills actually use it, and update their references. Avoid maintaining duplicate copies.
+
+## What belongs here
+
+Include reusable instructions, distilled lessons, supporting reference documents, small examples, and utilities that improve repeated work. Record the scope and evidence behind a lesson, and distinguish observed results from assumptions or practices still being tested.
+
+Keep artwork, models, renders, generated project outputs, credentials, raw audits, and individual project histories with their original projects. Project-specific scripts also stay there unless deliberately adapted into reusable utilities. Carry useful technical learning across projects while keeping design decisions tied to their active project and approved references.
+
+Local source paths in the diorama lessons log identify historical evidence outside this repository. They are provenance notes, not repository links or required runtime files.
+
+## Maintaining the collection
+
+- Give each skill a clear purpose and scope. Keep its main instructions concise and place detailed supporting material alongside it.
+- Add or revise guidance when actual work reveals a useful lesson. Preserve its evidence and limitations instead of turning every local preference into a universal rule.
+- When changing files, check relative links and applicable skill metadata. Run relevant utilities or evaluations when their behavior changes.
+- Review the staged files before committing so unrelated project assets and generated outputs do not enter the repository.
