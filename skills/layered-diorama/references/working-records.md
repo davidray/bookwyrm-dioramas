@@ -49,6 +49,7 @@ Do not request the same image again when it is already available. If no new imag
 - **Decision being tested:** One clear visual or technical question.
 - **Current tweak:** One independently reviewable outcome; note any coupled edits it requires.
 - **Remaining requested changes:** Ordered queue, including dependencies; retain items until completed or explicitly dropped.
+- **Scope feedback, when needed:** Separate decisions identified, reason to split them, and recommended first change/order; record any user preference for a combined pass.
 - **Starting artifact:** Exact scene/component path and relevant reference.
 - **Change:** What changed and why; shape, placement, material, or lighting.
 - **Protected scope:** Objects/properties that should remain established.
