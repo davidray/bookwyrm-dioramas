@@ -164,6 +164,16 @@ The user's present assessment is that the layered approach is working well. The 
 
 **Confidence:** User-confirmed failure; the prevention procedure is newly added and not yet demonstrated on another restart. Apply it to the user's stated restart scope so it does not discard valid environment work or standing requirements.
 
+## L16 — Give each tweak a focused iteration
+
+**Observation:** The user reports better results when asking for one change at a time. Bundling multiple tweaks, especially those requiring interpretation or design thinking, has reduced the quality of individual changes in their experience.
+
+**Changed practice:** Organize refinement around one clear outcome and its before/after comparison. Preserve unrelated geometry, placement, materials, and lighting. Keep other requested changes in a visible queue and validate each in sequence rather than attempting all as one undifferentiated pass. Coupled edits necessary for the same outcome can stay together. Ask for review when a later change depends on an unresolved decision, without creating mandatory approval gates for every edit.
+
+**Evidence:** Direct user observation in **Draft diorama pipeline skill**, 2026-09-22. A useful prompt pattern is: “Change [one property] of [one element] to match [reference or observable target]. Preserve [established properties]. Show a matched before/after.”
+
+**Confidence:** User-reported workflow improvement and preferred practice. No controlled comparison establishes the internal cause or a universal limit on multi-change requests. Apply this primarily to refinement; it does not prohibit broader build requests or necessary coordinated edits.
+
 ## Questions the next attempts should answer
 
 - Does earlier isolated character development avoid long cycles of environment/figure mismatch? Reserve scale and contact locations while testing it.

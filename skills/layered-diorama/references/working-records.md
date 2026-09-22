@@ -47,6 +47,8 @@ Do not request the same image again when it is already available. If no new imag
 ## Iteration record
 
 - **Decision being tested:** One clear visual or technical question.
+- **Current tweak:** One independently reviewable outcome; note any coupled edits it requires.
+- **Remaining requested changes:** Ordered queue, including dependencies; retain items until completed or explicitly dropped.
 - **Starting artifact:** Exact scene/component path and relevant reference.
 - **Change:** What changed and why; shape, placement, material, or lighting.
 - **Protected scope:** Objects/properties that should remain established.
@@ -104,7 +106,7 @@ Promote a lesson into SKILL.md when it changes future decisions across relevant 
 Current draft: `../SKILL.md`; collected evidence: `lessons.md`.
 Sources reviewed: the first build's accuracy/print notes, both layered project checkpoints, selected stage/reconstruction READMEs, and recent relevant task reviews. No new geometry or print checks were performed. No scene files changed.
 
-Completed: reusable staged workflow, 15 sourced lessons, status distinctions, working record formats, and open physical-validation questions. Expanded L13 with the recorded request-size failure, prevention/recovery guidance, and a minimal restart message; checked official compaction documentation to distinguish context handling from request-size recovery. Added a focused-crop request trigger for stalled iterations and an explicit attempt/carryover record to prevent abandoned designs influencing restarts. The maintained draft now lives in `skills/layered-diorama` in the `davidray/bookwyrm-dioramas` repository. It has not been installed into personal skills. Only skill documents and metadata were copied; original project evidence remains outside this repository.
+Completed: reusable staged workflow, 16 sourced lessons, status distinctions, working record formats, and open physical-validation questions. Expanded L13 with the recorded request-size failure, prevention/recovery guidance, and a minimal restart message; checked official compaction documentation to distinguish context handling from request-size recovery. Added a focused-crop request trigger for stalled iterations and an explicit attempt/carryover record to prevent abandoned designs influencing restarts. Added one-change refinement guidance and a queue for preserving multi-change requests while validating each tweak separately. The maintained draft now lives in `skills/layered-diorama` in the `davidray/bookwyrm-dioramas` repository. It has not been installed into personal skills. Only skill documents and metadata were copied; original project evidence remains outside this repository.
 
 Validation: bundled skill validator passed using the existing TRELLIS Python environment; repository Markdown links resolved. Original project evidence is recorded as local source identifiers rather than broken external-workspace links. Behavioral use of the draft has not yet been tested on a new build.
 

@@ -75,6 +75,10 @@ Focused reference/study → isolated model or reconstruction → multi-angle for
 
 ### 5. Integrate without undoing established work
 
+During tweaking, prefer one independently reviewable change per iteration, especially when it requires interpretation or design judgment. State the intended change, preserve unrelated properties, and compare its result with the baseline before proceeding to the next change. Avoid adding unsolicited improvements to the same pass. One change can require several coupled edits—for example, moving a hand and maintaining its grip on the staff—when they serve the same outcome.
+
+If the user requests several changes together, retain the full request and work through a short ordered queue, validating each change separately. Continue authorized independent changes without forcing the user to resubmit them or approve every step. When the next change depends on an unresolved visual decision, request review of that concrete result before dependent work. Honor an explicit request for a combined pass, and describe the combined scope clearly.
+
 Separate shape changes from placement changes. Record transform, scale, contact surfaces, and attachment intent. Fit feet to the actual sloped surface, inspect character-to-character and environment clearance, and preserve the upper pose where only a local stance adjustment is needed.
 
 For a local edit, identify protected objects and properties before changing anything. Verify the saved/reopened result against that baseline using appropriate geometry, connectivity, transform, visibility, material, and camera checks. Report the scope: a transform-only edit need not claim a fresh topology audit.
