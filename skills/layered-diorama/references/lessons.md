@@ -174,6 +174,16 @@ The user's present assessment is that the layered approach is working well. The 
 
 **Confidence:** User-reported workflow improvement and preferred practice. No controlled comparison establishes the internal cause or a universal limit on multi-change requests. Apply this primarily to refinement; it does not prohibit broader build requests or necessary coordinated edits.
 
+## L17 — Establish printer limits early and prefer whole parts
+
+**Observation:** The user requests an early question about the intended printer so the build can be scaled to its maximum usable print size. Their preference is to avoid splitting parts solely to fit the plate wherever practical.
+
+**Changed practice:** Establish the exact printer/configuration, verify usable X/Y/Z dimensions and source, and assess the limiting components before committing to scene scale. Allow space for the actual print orientation and supports/adhesion structures. Prefer fitting each intended part whole through practical orientation and coherent overall scale. When this conflicts with desired size or printable detail, explain the alternatives before changing an accepted scale or introducing cuts. Keep printer assumptions tied to the active project.
+
+**Evidence:** Direct user requirement and preference in **Draft diorama pipeline skill**, 2026-09-22. Historical print notes (local source: `PRINT_NOTES_V2.md`) distinguish model-envelope fit from a supported arrangement, while Moria's overview (local source: `moria_layered/README.md`) labels its initial dimensions provisional.
+
+**Confidence:** Explicit user preference and newly added workflow requirement. No printer is selected by this lesson, and it does not establish a successfully printed whole-part assembly. Keeping parts whole does not require fusing the entire diorama or accepting an impractical print orientation.
+
 ## Questions the next attempts should answer
 
 - Does earlier isolated character development avoid long cycles of environment/figure mismatch? Reserve scale and contact locations while testing it.

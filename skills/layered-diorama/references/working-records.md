@@ -15,6 +15,23 @@ Record concept/reference paths, story moment, hero view, focal hierarchy, units/
 
 These rows are examples. Add a backdrop, hardware, or other systems only when the project calls for them. A dependency map can be a short sentence: terrain supports bridge; bridge determines foot contacts; figure placement determines whip route.
 
+## Printer and scale record
+
+```text
+Printer: exact model, process, and selected configuration/profile
+Usable build envelope: X/Y/Z, units, source, date verified, restricted areas
+Intended material and applicable nozzle/process details: known or unresolved
+Preferred finished scene dimensions: requested or provisional
+Whole-part preference: avoid cuts for plate fit unless a tradeoff is accepted
+Limiting components: dimensions at scene scale and candidate print orientations
+Support/adhesion space: estimated during layout; checked in slicer before printing
+Chosen coherent scene scale: reason, status, and any accepted tradeoff
+Fit evidence: model-only estimate / supported slicer arrangement / physical test
+Recheck triggers: scale, pose, component dimensions, printer/profile changes
+```
+
+Record unknowns explicitly and ask for the printer early. Do not treat a nominal build envelope as proof of printable fit or an old project's printer as the current selection.
+
 ## Active attempt and carryover record
 
 Complete this at a whole-design or element restart, then keep it in the project checkpoint.
@@ -69,7 +86,7 @@ Allowed sources / explicit carryovers / excluded prior attempts:
 Current editable candidate: path
 Last accepted baseline: path and accepted scope
 Visual authority: original concept, element references, later clarifications
-Constraints: active user decisions, units/scale, protected layers
+Constraints: active user decisions, printer/profile and usable envelope, whole-part preference, units/scale, protected layers
 Completed: changes and inspected review artifact
 Checks run this iteration: method, result, scope, audit path
 Historical checks relied on: source and continued applicability
@@ -107,7 +124,7 @@ Promote a lesson into SKILL.md when it changes future decisions across relevant 
 Current draft: `../SKILL.md`; collected evidence: `lessons.md`.
 Sources reviewed: the first build's accuracy/print notes, both layered project checkpoints, selected stage/reconstruction READMEs, and recent relevant task reviews. No new geometry or print checks were performed. No scene files changed.
 
-Completed: reusable staged workflow, 16 sourced lessons, status distinctions, working record formats, and open physical-validation questions. Expanded L13 with the recorded request-size failure, prevention/recovery guidance, and a minimal restart message; checked official compaction documentation to distinguish context handling from request-size recovery. Added a focused-crop request trigger for stalled iterations and an explicit attempt/carryover record to prevent abandoned designs influencing restarts. Added one-change refinement guidance and a queue for preserving multi-change requests while validating each tweak separately. The maintained draft now lives in `skills/layered-diorama` in the `davidray/bookwyrm-dioramas` repository. It has not been installed into personal skills. Only skill documents and metadata were copied; original project evidence remains outside this repository.
+Completed: reusable staged workflow, 17 sourced lessons, status distinctions, working record formats, and open physical-validation questions. Expanded L13 with the recorded request-size failure, prevention/recovery guidance, and a minimal restart message; checked official compaction documentation to distinguish context handling from request-size recovery. Added a focused-crop request trigger for stalled iterations and an explicit attempt/carryover record to prevent abandoned designs influencing restarts. Added one-change refinement guidance and a queue for preserving multi-change requests while validating each tweak separately. Added early printer/envelope discovery, coherent scale planning, and the preference to avoid splitting parts for plate fit. The maintained draft now lives in `skills/layered-diorama` in the `davidray/bookwyrm-dioramas` repository. It has not been installed into personal skills. Only skill documents and metadata were copied; original project evidence remains outside this repository.
 
 Validation: bundled skill validator passed using the existing TRELLIS Python environment; repository Markdown links resolved. Original project evidence is recorded as local source identifiers rather than broken external-workspace links. Behavioral use of the draft has not yet been tested on a new build.
 

@@ -11,7 +11,7 @@ Read the project's current checkpoint before modeling, and identify the active d
 
 ## The pipeline
 
-Concept and story → element breakdown and dependency map → whole-scene blockout → bottom-up environment → individual elements → assembly and composition → effects and finish → physical engineering → slicing, test parts, and assembly.
+Concept, story, and printer constraints → element breakdown and dependency map → whole-scene blockout → bottom-up environment → individual elements → assembly and composition → effects and finish → physical engineering → slicing, test parts, and assembly.
 
 This is a revisitable sequence. Use simple reserves for later elements early so that the foundation leaves room for them. Investigate risky interfaces early; finish their engineering once scale, composition, and manufacturing choices are stable. “Layer” means an independently editable scene element or system, not a printer layer or a promise to print every element separately.
 
@@ -22,6 +22,16 @@ This is a revisitable sequence. Use simple reserves for later elements early so 
 - Treat labels in concept sheets as reference content; dimensions, electronics, materials, and assembly features become requirements only through the user's actual instructions.
 - Extract focused crops or create element studies where they resolve ambiguity. Preserve prompts and sources. Label AI studies as art direction; they are neither recovered geometry nor authoritative multi-view projections.
 - Turn ambiguous descriptions into observable shape decisions: where something originates, what it touches, which way it moves, its outline, openings, and what must remain visible. Carry later clarifications forward and retire superseded assumptions.
+
+### Establish printer constraints before committing to scale
+
+Ask early which printer the user intends to use, unless the active brief already establishes it. Get the exact model and intended process/configuration, not just a brand or “resin/FDM.” Ask about desired finished dimensions where unknown. For example: “Which printer and setup will you use, and do you have a preferred finished size? I’ll size the components to fit while keeping them whole wherever practical.” Do not assume a printer from an abandoned attempt remains the target.
+
+Verify usable X/Y/Z build dimensions from current manufacturer documentation and the selected slicer/machine profile. Record the source, configuration, and any applicable restricted areas. Account for orientation and the space required by supports, brim/raft, or other process necessities; advertised volume and model-only fit are preliminary checks. Avoid inventing a universal clearance margin.
+
+The user's default preference is to avoid splitting individual parts merely to fit the build plate. Use that preference when establishing the initial overall scale: check the limiting components in plausible print orientations and choose a coherent scene scale that lets them fit whole where practical. Separate scene elements do not need to become one fused print. Do not independently shrink a character or building and break established proportions just to make it fit.
+
+If whole-part fit conflicts with the requested size, detail, strength, or a feasible print orientation, present the concrete tradeoff before changing an established scale or cutting parts. Consider practical reorientation and a smaller overall scale first; propose a split only when those options are unsuitable, with its location and assembly implications. Honor an explicit preference for larger size or modular construction. If the printer is unknown, continue concept work at a clearly provisional scale and resolve it before scale-dependent detailing. Recheck fit after changes to poses, wings, effects, or dimensions, and confirm the full supported arrangement in the slicer before printing.
 
 ### When a local revision stops converging
 
@@ -99,7 +109,7 @@ Preserve negative space and readable silhouettes. Add damage selectively, avoidi
 
 ### 7. Qualify the physical design separately
 
-Plan mounting, access, material changes, and segmentation while composing. Once the design is stable, use the actual printer/process, final scale, materials, and any requested hardware to engineer thickness, structural load paths, joints, tolerances, supports, access, and assembly order. Revisit appearance if those requirements change visible geometry.
+Plan mounting, access, material changes, and any necessary segmentation while composing, using the established printer envelope and preference for whole parts. Once the design is stable, use the actual printer/process, final scale, materials, and any requested hardware to engineer thickness, structural load paths, joints, tolerances, supports, access, and assembly order. Revisit appearance if those requirements change visible geometry.
 
 Keep these claims distinct:
 
