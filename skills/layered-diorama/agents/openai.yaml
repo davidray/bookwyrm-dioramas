@@ -1,0 +1,4 @@
+interface:
+  display_name: "Layered Diorama"
+  short_description: "Build dioramas progressively from concept to parts"
+  default_prompt: "Use $layered-diorama to develop a diorama from concept art, preserving established layers and recording what each iteration teaches us."

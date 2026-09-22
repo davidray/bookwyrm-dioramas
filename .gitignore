@@ -1,0 +1,25 @@
+# Local/editor files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Keep project artwork, geometry, and generated outputs outside this repository.
+*.blend
+*.blend[0-9]*
+*.stl
+*.obj
+*.ply
+*.glb
+*.gltf
+*.fbx
+*.3mf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tif
+*.tiff
+*.exr
+*.mp4
+*.mov
+*.log
