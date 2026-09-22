@@ -32,6 +32,26 @@ Recheck triggers: scale, pose, component dimensions, printer/profile changes
 
 Record unknowns explicitly and ask for the printer early. Do not treat a nominal build envelope as proof of printable fit or an old project's printer as the current selection.
 
+## Mounting study record
+
+Use [the mounting procedure](mounting-points.md) when deriving seats from a fixed figure.
+
+```text
+Accepted figure/scene baseline and fixed properties:
+Selected mount method and excluded alternatives:
+Permitted support-edit region and intended contact surfaces:
+Solid cutter source, caps, coordinate frame, and allowance definition:
+Retained source/pre-cut geometry and editable cutter paths:
+Toe/feature relief and retained support:
+Insertion direction and full-assembly sequence:
+Collision scope: geometry tested, poses sampled, clearance method, exclusions
+Preservation evidence and new versus existing mesh defects:
+Visual review artifact and status:
+Outstanding topology, thickness, load, fit, adhesive, and physical tests:
+```
+
+Do not turn a local foot-path result into a whole-figure assembly claim, or a fit study into a proven structural mount.
+
 ## Active attempt and carryover record
 
 Complete this at a whole-design or element restart, then keep it in the project checkpoint.
@@ -124,7 +144,7 @@ Promote a lesson into SKILL.md when it changes future decisions across relevant 
 Current draft: `../SKILL.md`; collected evidence: `lessons.md`.
 Sources reviewed: the first build's accuracy/print notes, both layered project checkpoints, selected stage/reconstruction READMEs, and recent relevant task reviews. No new geometry or print checks were performed. No scene files changed.
 
-Completed: reusable staged workflow, 17 sourced lessons, status distinctions, working record formats, and open physical-validation questions. Expanded L13 with the recorded request-size failure, prevention/recovery guidance, and a minimal restart message; checked official compaction documentation to distinguish context handling from request-size recovery. Added a focused-crop request trigger for stalled iterations and an explicit attempt/carryover record to prevent abandoned designs influencing restarts. Added one-change refinement guidance and a queue for preserving multi-change requests while validating each tweak separately. Added early printer/envelope discovery, coherent scale planning, and the preference to avoid splitting parts for plate fit. The maintained draft now lives in `skills/layered-diorama` in the `davidray/bookwyrm-dioramas` repository. It has not been installed into personal skills. Only skill documents and metadata were copied; original project evidence remains outside this repository.
+Completed: reusable staged workflow, 18 sourced lessons, status distinctions, working record formats, and open physical-validation questions. Expanded L13 with the recorded request-size failure, prevention/recovery guidance, and a minimal restart message; checked official compaction documentation to distinguish context handling from request-size recovery. Added a focused-crop request trigger for stalled iterations and an explicit attempt/carryover record to prevent abandoned designs influencing restarts. Added one-change refinement guidance and a queue for preserving multi-change requests while validating each tweak separately. Added early printer/envelope discovery, coherent scale planning, and the preference to avoid splitting parts for plate fit. Added the Smaug shaped-seat method, toe relief, swept insertion-clearance study, separate pin-prototype limitations, and mounting record. Source READMEs and relevant scripts were inspected; no new mesh checks were run. The maintained draft now lives in `skills/layered-diorama` in the `davidray/bookwyrm-dioramas` repository. It has not been installed into personal skills. Only skill documents and metadata were copied; original project evidence remains outside this repository.
 
 Validation: bundled skill validator passed using the existing TRELLIS Python environment; repository Markdown links resolved. Original project evidence is recorded as local source identifiers rather than broken external-workspace links. Behavioral use of the draft has not yet been tested on a new build.
 

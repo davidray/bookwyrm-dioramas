@@ -111,6 +111,8 @@ Preserve negative space and readable silhouettes. Add damage selectively, avoidi
 
 Plan mounting, access, material changes, and any necessary segmentation while composing, using the established printer envelope and preference for whole parts. Once the design is stable, use the actual printer/process, final scale, materials, and any requested hardware to engineer thickness, structural load paths, joints, tolerances, supports, access, and assembly order. Revisit appearance if those requirements change visible geometry.
 
+For terrain-mounted figures, read [shaped mounting seats and assembly clearance](references/mounting-points.md). The Smaug workflow keeps the figure fixed, expands nearby rock locally, and subtracts capped solid copies of the exterior feet with adjustable mating allowance. Refine toe clearance and the insertion passage separately. Verify the whole figure's assembly path, not just its seated pose or one foot's clearance. Preserve hidden construction tools and compare protected geometry. Treat shaped seats and pin/socket prototypes as distinct alternatives; local fit does not establish a complete load-bearing mount.
+
 Keep these claims distinct:
 
 - Visual review: silhouette, anatomy, placement, and story read correctly.

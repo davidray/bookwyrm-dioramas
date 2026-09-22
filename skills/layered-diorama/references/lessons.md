@@ -184,6 +184,16 @@ The user's present assessment is that the layered approach is working well. The 
 
 **Confidence:** Explicit user preference and newly added workflow requirement. No printer is selected by this lesson, and it does not establish a successfully printed whole-part assembly. Keeping parts whole does not require fusing the entire diorama or accepting an impractical print orientation.
 
+## L18 — Derive mounts from fixed contact shapes, then check how the part gets in
+
+**Observation:** Smaug's adhesive-seat study kept his approved geometry and placement fixed, expanded rock locally, and subtracted solid exterior-foot tools. The first pockets left stone between toes; a toe-envelope trim cleared it. A further correction was needed because the far foot still could not slide into its pocket. A swept approach envelope opened the entrance.
+
+**Changed practice:** Build a mount around the accepted contact shape with limited, editable terrain changes. Use capped outer-surface cutters rather than the character's hollow shell. Check toe gaps, retained support, and assembly access as separate questions. Test movement of the whole assembly before claiming it can be installed; local final-pose fit is insufficient. Retain pin/socket studies as separate alternatives and reject integration operations that damage protected geometry.
+
+**Evidence:** [Mounting method and case results](mounting-points.md), drawn from local sources `v3_layered/foot_seats_r1/README.md`, `v3_layered/foot_seats_r2/README.md`, `v3_layered/foot_seats_r3/README.md`, their build scripts, and `v3_layered/assembly_r1/README.md`.
+
+**Confidence:** Recorded preservation and local fit/path checks, not a physically proven mount. The r3 record tests a limited foot surface at 41 positions; whole-dragon insertion, glue strength, and manufacturing remain unqualified. Its mountain is still nonmanifold. Historical clearance values are prototype parameters, not general tolerances.
+
 ## Questions the next attempts should answer
 
 - Does earlier isolated character development avoid long cycles of environment/figure mismatch? Reserve scale and contact locations while testing it.
