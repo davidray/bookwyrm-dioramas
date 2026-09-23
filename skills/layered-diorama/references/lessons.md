@@ -1,18 +1,20 @@
 # Diorama lessons — living evidence log
 
-Collected 2026-09-22. This records existing project notes and selected conversation reviews; no meshes were regenerated, rerendered, or reaudited for this draft. The first attempt includes its original and V2 revisions. The other two attempts are the layered Dale restart and Moria, rather than three revisions of Dale.
+Initially collected 2026-09-22; updated from continued Dale and Moria work on 2026-09-23. This records existing project notes and selected conversation reviews; no meshes were regenerated, rerendered, or reaudited for this draft. The first attempt includes its original and V2 revisions. The other two attempts are the layered Dale restart and Moria, rather than three revisions of Dale.
 
 Evidence labeled “local source” names a path relative to the original Dioramas workspace. Those project files, artwork, models, and task histories are intentionally not included in this repository. The observations and their limits are summarized here so the skill remains useful independently; source paths are provenance identifiers, not repository links or runtime dependencies. Read the active project checkpoint when resuming a build; this dated log is not an alternative active-state tracker.
 
-## Where we stand
+Lessons L01–L18 describe their original observations; references to then-current candidates are historical. The summary below and L19–L25 incorporate later work. This log does not replace either live project checkpoint.
+
+## Where we stand — 2026-09-23
 
 | Attempt | Evidence so far | Limit of the conclusion |
 | --- | --- | --- |
 | First Smaug/Dale build, including V2 | User describes it as a total failure. Recorded accuracy review found major composition, anatomy, and shape-language problems despite added detail and a fused manifold export. | Its technical checks are historical evidence of mesh properties, not evidence of artistic success or a physical print. |
-| Layered Dale (`v3_layered`) | Terrain and village were developed separately; village edits preserved building geometry. Wing-armed dragon image and placement were accepted. Local reconstruction and surface cleanup produced usable candidates. | Dragon thickness/supports and complete assembly remain unqualified; latest turbulent fire is awaiting review. |
-| Layered Moria (`moria_layered`) | Environment survived many local passes and replacement of both characters. User liked the new film-inspired character direction and authorized cleanup/fitting. | Current cleaned/fitted scene awaits review. Manufacturing and physical illumination remain unresolved. |
+| Layered Dale (`v3_layered`) | Approved visual layers advanced into staged assembly, local mesh repair, and lighting. User-reported wing-support and revised gate-holder fit passes; solid dragon replacement exported. | New solid dragon print result and complete structural performance unreported; building carrier/wired optics test pending. |
+| Layered Moria (`moria_layered`) | Accepted environment and regenerated character work advanced to solid figures, resin/FDM interfaces, and structural exports. User reports wire/joint/foot/wing sample passes and Balrog native import/plate fit. | Full Balrog print result pending; Gandalf cape-fill result pending and user's repaired slicer file unavailable locally. New FDM carrier/bridge fit and unresolved structure intersection flags remain. |
 
-The user's present assessment is that the layered approach is working well. The narrower evidence supports controllable iteration, preservation, and better visual direction; it does not yet establish a finished fabrication pipeline.
+Evidence now includes controllable iteration, preservation, improved visual direction, and local physical fit results. It still does not establish a fully assembled, illuminated, structurally qualified diorama.
 
 ## L01 — More detail cannot repair the wrong structure
 
@@ -194,11 +196,81 @@ The user's present assessment is that the layered approach is working well. The 
 
 **Confidence:** The early r3 record tests a limited foot surface at 41 positions; it did not establish whole-dragon insertion, glue strength, or manufacturing readiness, and its mountain was nonmanifold. This is a dated case record, not the latest project status. Later acceptance and fit work belong in the current project checkpoint. Historical clearance values are prototype parameters, not general tolerances. September 23 generalization makes the procedure applicable to other objects/supports without claiming it has been physically demonstrated for them.
 
+## L19 — Separate for assembly and service, not automatically for plate size
+
+**Observation:** Dale needed staged removable supports and an accessory installed last to preserve accepted contacts. Moria used removable paving carriers and a serviceable backdrop; including the full bridge exposed contacts missed by carrier-only checks.
+
+**Changed practice:** Define moving groups and the parts present at each stage. Check complete seated and moving assemblies. Use functional removable parts where appropriate, preserving accepted appearance; treat slicer plate cuts as a separate decision owned by the current brief.
+
+**Evidence:** [Assembly procedure and sources](fabrication-and-lighting.md), including local `v3_layered/staged_mount_r1/README.md` and `moria_layered/balrog_regeneration_r1/print_study_r1/README.md`.
+
+**Confidence:** Recorded digital path results plus Dale local joint fit. Finite checks and local coupons do not prove complete assembly or load capacity.
+
+## L20 — Calibrate actual mating pairs and lock the tested interfaces
+
+**Observation:** Dale's first LED holder was tight in print; the revised pair passed. Its support kit passed. Moria's resin wire, joint, feet, and wing samples passed, but the new FDM carrier/bridge receivers remain untested.
+
+**Changed practice:** Test small pieces from actual mating geometry with labeled variants, actual hardware, and intended materials. Record which interface passed, preserve its dimensions, and issue matched revisions. Do not infer that a passed sole fit qualifies a carrier socket or that reused dimensions qualify a different mechanism.
+
+**Evidence:** [Physical-test method and sources](fabrication-and-lighting.md); local `v3_layered/gate_led_r2/README.md`, `v3_layered/mount_fit_r1/README.md`, `moria_layered/balrog_regeneration_r1/print_exports_r1/README.md`, `moria_layered/structure_print_r1/README.md`.
+
+**Confidence:** User-reported local passes. Unknown print settings stay unknown; results are not universal tolerances or full-part strength tests.
+
+## L21 — Validate source, export, native slicing, and physical results separately
+
+**Observation:** Moria's Gandalf STL passed topology checks yet needed native slicer repair. That user-repaired file is not the local export. Balrog STL welding exposed defects; an indexed 3MF retained source geometry and later imported without reported errors. FDM structure imports still coexist with unresolved independent intersection flags.
+
+**Changed practice:** Reopen the exact delivery, verify units/connectivity and native interpretation, investigate disagreements, and track repairs as distinct artifacts. Protect fitted surfaces through repairs. Recheck plate centering after supports and distinguish geometry-only files from slicer projects and machine output.
+
+**Evidence:** [Export and artifact-authority procedure](fabrication-and-lighting.md); local `moria_layered/gandalf_cape_fill_r1/README.md`, `moria_layered/balrog_regeneration_r1/print_exports_r1/README.md`, `moria_layered/structure_print_r1/README.md`.
+
+**Confidence:** Observed validation disagreements and reported import/repair outcomes. No file format automatically fixes defects; absence of warnings is not completed layer review or print success.
+
+## L22 — Localize repair and measure what changed
+
+**Observation:** Broad repairs damaged visible mountain forms or tested contact surfaces. Dale eventually resolved its recorded mountain intersection flags with small local changes; Moria's selective cleanup improved but did not eliminate its structure flags.
+
+**Changed practice:** Baseline defects, protect interfaces, repair bounded regions, compare surfaces and recheck paths. Separate exact preservation from sampled similarity. Keep originals and reject a closed result if it compromises the required design or fit. Choose tools per mesh rather than banning or trusting one algorithm universally.
+
+**Evidence:** Local `v3_layered/mountain_intersections_r3/README.md`, `moria_layered/structure_print_r1/README.md`, `moria_layered/balrog_regeneration_r1/print_exports_r1/README.md`; see [repair guidance](fabrication-and-lighting.md).
+
+**Confidence:** Recorded mesh/shape checks. Zero flags in a particular screen does not certify physical performance or every form of defect.
+
+## L23 — A solid body can still contain fragile projecting features
+
+**Observation:** Gandalf's cape developed holes in both hollow and solid prints. The user requested a constrained fill beneath it. Dale also explicitly superseded hollow FDM construction with solid material volumes and slicer-controlled infill.
+
+**Changed practice:** Follow the active material-volume decision, preserve functional voids, and inspect thin projections separately. Use annotated print feedback to place supporting material without obscuring visible folds or changing tested contacts. Do not confuse directional material spans with minimum thickness or claim the issue fixed before a physical retest.
+
+**Evidence:** Local `moria_layered/gandalf_cape_fill_r1/README.md`, `v3_layered/dragon_solid_r1/README.md`; [construction guidance](fabrication-and-lighting.md).
+
+**Confidence:** Reported recurring failure and new constrained-fill candidate. The revised cape and replacement solid dragon have no reported successful final print yet.
+
+## L24 — Lighting needs wired access and optical tests
+
+**Observation:** Dale progressed from route reserves to real pockets/passages and a passed gate-holder fit. Reusing that pocket size for buildings introduced different carriers and long/bent light paths whose brightness and wired insertion remain untested.
+
+**Changed practice:** Distinguish placeholders from cut geometry and bare-board clearance from soldered assembly access. Preserve pads, connector routes, service slack, and removability. Test representative short/long paths and diffuser samples at equal settings before copying a design across the scene. Source concealment, fit, and useful light output are different checks.
+
+**Evidence:** Local `v3_layered/lighting_access_r1/README.md`, `v3_layered/gate_led_r2/README.md`, `v3_layered/building_led_test_r1/PRINT_AND_TEST.md`; [lighting procedure](fabrication-and-lighting.md).
+
+**Confidence:** Local gate fit passed; building wired/optical test pending. Render glow and ray clearance do not establish measured brightness.
+
+## L25 — Verify surface identity before attaching accessories
+
+**Observation:** Moria's weapon retrofit initially mistook neighboring knee/leg geometry for a fist. Local grip/hand corrections were rejected; a full character regeneration included sword and whip in the source study, followed by cleanup and fitting.
+
+**Changed practice:** Isolate connected anatomy and inspect front, side, underside, and grip-axis views before locating an attachment. Check anatomical left/right explicitly. Include important interactions in the initial reference/reconstruction brief; if local fixes distort the subject or fail repeatedly, reconsider the component's source/method while preserving the environment.
+
+**Evidence:** Local `moria_layered/CHECKPOINT.md` sections “Reposed actual hands” and “Balrog full regeneration”; rejected hand work is failure evidence only, not a design baseline.
+
+**Confidence:** Recorded identification error, rejected retrofit, and subsequent regeneration. Generating accessories together still requires inspection for duplicate strands, ambiguous grips, thickness, and fit.
+
 ## Questions the next attempts should answer
 
 - Does earlier isolated character development avoid long cycles of environment/figure mismatch? Reserve scale and contact locations while testing it.
 - Can mounts, thin wings, small equipment, and flame sheets survive printing, support removal, handling, and assembly at the accepted scale?
-- What joint tolerances and segmentation work for the chosen process/material? Record physical test dimensions and outcomes.
+- Which passed local interface results transfer to complete assembly under actual handling and load? Preserve tested dimensions and record the exact scope of each pass.
 - Can physical lights reproduce the desired focal hierarchy without obscuring sculpture? Render emission alone does not answer this.
 - When must a visually accepted layer change for engineering reasons, and how much rework does the layered structure prevent?
 

@@ -5,7 +5,7 @@ description: Develop 3D dioramas from concept art through element decomposition,
 
 # Layered diorama — working draft
 
-Draft collected on 2026-09-22 from the first Smaug/Dale attempt, the layered Dale restart, and layered Moria. The layered workflow shows useful visual and editing progress; an end-to-end manufactured result is not yet demonstrated. This repository maintains the working draft and its learning record. Storing it here does not install it as a personal skill.
+Draft collected on 2026-09-22 from the first Smaug/Dale attempt, the layered Dale restart, and layered Moria. Updated through 2026-09-23: the layered workflow shows visual progress and several user-reported local print/fit passes; an end-to-end manufactured result is not yet demonstrated. This repository maintains the working draft and its learning record. Storing it here does not install it as a personal skill.
 
 Read the project's current checkpoint before modeling, and identify the active design attempt and its source boundaries. For reasons behind this workflow and specific failures, consult [the lessons log](references/lessons.md). Use [the working records](references/working-records.md) when starting a project, recording a review, or adding a lesson. Project-specific design choices remain in project checkpoints.
 
@@ -77,7 +77,7 @@ Use this sub-pipeline where appropriate:
 
 Focused reference/study → isolated model or reconstruction → multi-angle form review → surface cleanup → scene-scale fitting → integration review.
 
-- Establish anatomy, gesture, equipment, and major folds before fine texture. Check limb count, left/right identity, wing attachments, palms/thumbs, grips, and load-bearing contacts in actual views.
+- Establish anatomy, gesture, equipment, and major folds before fine texture. Isolate actual connected surfaces and inspect multiple angles before assigning a contact or grip; overlapping silhouette can make a knee or neighboring surface look like a hand. Include required accessory grips in the reference/reconstruction brief when later retrofitting repeatedly fails. Check limb count, left/right identity, wing attachments, palms/thumbs, grips, and load-bearing contacts in actual views.
 - Compare neutral material renders as well as the intended presentation. Color, glowing effects, and dramatic lights cannot establish that geometry is right.
 - Keep the raw reconstruction and input image unchanged. Record generation tool, environment, input preparation, settings, scale, and outputs. Check installed local capabilities before assuming missing cloud/MCP access blocks generation.
 - Judge cleanup by retained silhouette and detail as well as topology. Apply and measure changes at a known processing scale, then reassess thickness at final scale. Classify separate components by meaning; do not remove an accessory merely to get one component.
@@ -115,6 +115,10 @@ For any mounted character or object, read [shaped mounting seats and assembly cl
 
 For the user's current FDM workflow, construct solid material volumes and leave infill to the slicer, while retaining intentional functional voids such as sockets, lighting chambers, wire routes, and tunnels. Historical thin-shell cleanup or reinforcement studies do not override that rule. Preserve accepted exteriors and tested interfaces when changing internal construction; establish process-specific requirements separately for other manufacturing methods.
 
+For physical testing, repair, export, and illumination, read [fabrication and lighting](references/fabrication-and-lighting.md). Separate functional assembly/service parts from plate-size cuts. Test actual mating pairs, record the interface and process, and protect physically passed geometry. Do not transfer a local fit result to another interface or material without evidence.
+
+Verify the delivered file and its native slicer interpretation separately from source topology. Preserve the identity of user-repaired files; do not claim a local pre-repair export is their repaired copy. Recenter and recheck the complete support/raft envelope after support generation. Use representative wired-hardware and optical tests before repeating lighting across the scene; a clear passage or illustrative glow is not a brightness test.
+
 Keep these claims distinct:
 
 - Visual review: silhouette, anatomy, placement, and story read correctly.
@@ -136,7 +140,7 @@ For prevention details and a size-error recovery procedure, read [payload manage
 
 ### Preserve decisions and collect lessons
 
-After a meaningful change, update the checkpoint with the active editable file, reference authority, accepted decisions, candidate status, changed/protected scope, validation and its limits, unresolved issues, and next step. Distinguish checks run now from historical checks. Preserve rejected work only as history where appropriate; respect explicit deletions and never quietly reintroduce rejected baselines.
+Keep the active checkpoint concise and archive superseded stages, leaving explicit pointers to evidence and replaced exports. Distinguish active print jobs from successful results. After a meaningful change, update the checkpoint with the active editable file, reference authority, accepted decisions, candidate status, changed/protected scope, validation and its limits, unresolved issues, and next step. Distinguish checks run now from historical checks. Preserve rejected work only as history where appropriate; respect explicit deletions and never quietly reintroduce rejected baselines.
 
 When adding or revising guidance, write the reusable method in terms of roles, constraints, and decisions; keep named characters, anatomy, materials, dimensions, and project-specific choices in clearly labeled worked examples. Generalize the principle only as far as its evidence supports, and distinguish a transferable method from a physically proven result.
 

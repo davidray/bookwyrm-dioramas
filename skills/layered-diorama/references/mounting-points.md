@@ -45,6 +45,14 @@ The earlier `assembly_r1` study used two parallel pin axes, contoured rock sleev
 
 Full-body Boolean integration produced edge defects and was rejected. The useful lesson is to prototype inserts and fit separately, preserve the accepted exterior, and integrate only after manufacturing construction is established. This historical thin-shell failure is not a reason to keep the object hollow; the September 23 user instruction explicitly supersedes that construction for FDM. Do not resume rejected fused geometry or switch from adhesive seats back to pins without direction. Neither prototype establishes a complete mount.
 
+## Later assembly and physical-fit evidence — September 23 update
+
+Dale progressed beyond the early foot-only study. Removable rear support and cap sections retained the approved assembled contact shapes while permitting a stored compound rigid object motion; the mouth flame fits afterward. A small kit using the actual receiver, full support/cap, and a cropped wing region passed the user's local physical fit test. Preserve those tested interfaces; this result does not prove full-object installation, adhesive loading, or a successful full print.
+
+Moria provides a second example: removable paving carriers preserve figure geometry, but carrier-only checks missed surrounding bridge and landing contacts. Later receiver/paving relief resolved the checked path while keeping the figures fixed. Passed resin foot/carrier samples do not qualify the distinct FDM carrier/bridge connection; those receiver tests are pending.
+
+See [fabrication and lighting](fabrication-and-lighting.md) for the generalized staged-assembly and actual-interface testing procedure, evidence paths, and export limitations. Keep functional support separation distinct from cutting the mounted object solely for build-plate fit.
+
 ## Review and qualification record
 
 Record the fixed object and receiving-support baselines, permitted support changes, mount method, cutter source and limits, allowance definition, retained contact regions, assembly approach, protected-object checks, new versus pre-existing defects, and precise collision-test scope. Use one compact comparison showing before/after, an exposed seat, and enough of the assembly to judge visibility.
