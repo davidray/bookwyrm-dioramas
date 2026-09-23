@@ -34,23 +34,23 @@ Record unknowns explicitly and ask for the printer early. Do not treat a nominal
 
 ## Mounting study record
 
-Use [the mounting procedure](mounting-points.md) when deriving seats from a fixed figure.
+Use [the mounting procedure](mounting-points.md) when deriving a receiving seat from any fixed character or object.
 
 ```text
-Accepted figure/scene baseline and fixed properties:
+Mounted object and receiving support: accepted baselines and fixed properties:
 Selected mount method and excluded alternatives:
 Permitted support-edit region and intended contact surfaces:
 Solid cutter source, caps, coordinate frame, and allowance definition:
 Retained source/pre-cut geometry and editable cutter paths:
-Toe/feature relief and retained support:
-Insertion direction and full-assembly sequence:
+Feature-clearance relief, retained support, and intentional locating/retention features:
+Whole-object insertion/removal path and any staged assembly sequence:
 Collision scope: geometry tested, poses sampled, clearance method, exclusions
 Preservation evidence and new versus existing mesh defects:
 Visual review artifact and status:
 Outstanding topology, thickness, load, fit, adhesive, and physical tests:
 ```
 
-Do not turn a local foot-path result into a whole-figure assembly claim, or a fit study into a proven structural mount.
+Do not turn a local contact-region path result into a whole-object assembly claim, or a fit study into a proven structural mount.
 
 ## Active attempt and carryover record
 
@@ -139,9 +139,9 @@ Next evidence needed:
 
 Promote a lesson into SKILL.md when it changes future decisions across relevant projects. Keep exact poses, preferred fire styles, hardware choices, and repair parameters with their source project. If a later result changes the lesson, explain the change and keep the evidence trail.
 
-## Draft handoff — 2026-09-22
+## Draft handoff — updated 2026-09-23
 
-Current draft: `../SKILL.md`; collected evidence: `lessons.md`.
+Current draft: `../SKILL.md`; collected evidence: `lessons.md`. Mounting instructions now apply to arbitrary objects and receiving supports, with Smaug retained as a historical worked example. Future additions should separate transferable methods from case details. The current user-directed FDM solid-volume rule supersedes historical hollow-body choices; intentional functional voids remain.
 Sources reviewed: the first build's accuracy/print notes, both layered project checkpoints, selected stage/reconstruction READMEs, and recent relevant task reviews. No new geometry or print checks were performed. No scene files changed.
 
 Completed: reusable staged workflow, 18 sourced lessons, status distinctions, working record formats, and open physical-validation questions. Expanded L13 with the recorded request-size failure, prevention/recovery guidance, and a minimal restart message; checked official compaction documentation to distinguish context handling from request-size recovery. Added a focused-crop request trigger for stalled iterations and an explicit attempt/carryover record to prevent abandoned designs influencing restarts. Added one-change refinement guidance and a queue for preserving multi-change requests while validating each tweak separately. Added early printer/envelope discovery, coherent scale planning, and the preference to avoid splitting parts for plate fit. Added the Smaug shaped-seat method, toe relief, swept insertion-clearance study, separate pin-prototype limitations, and mounting record. Source READMEs and relevant scripts were inspected; no new mesh checks were run. The maintained draft now lives in `skills/layered-diorama` in the `davidray/bookwyrm-dioramas` repository. It has not been installed into personal skills. Only skill documents and metadata were copied; original project evidence remains outside this repository.

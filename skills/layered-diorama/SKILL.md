@@ -111,7 +111,9 @@ Preserve negative space and readable silhouettes. Add damage selectively, avoidi
 
 Plan mounting, access, material changes, and any necessary segmentation while composing, using the established printer envelope and preference for whole parts. Once the design is stable, use the actual printer/process, final scale, materials, and any requested hardware to engineer thickness, structural load paths, joints, tolerances, supports, access, and assembly order. Revisit appearance if those requirements change visible geometry.
 
-For terrain-mounted figures, read [shaped mounting seats and assembly clearance](references/mounting-points.md). The Smaug workflow keeps the figure fixed, expands nearby rock locally, and subtracts capped solid copies of the exterior feet with adjustable mating allowance. Refine toe clearance and the insertion passage separately. Verify the whole figure's assembly path, not just its seated pose or one foot's clearance. Preserve hidden construction tools and compare protected geometry. Treat shaped seats and pin/socket prototypes as distinct alternatives; local fit does not establish a complete load-bearing mount.
+For any mounted character or object, read [shaped mounting seats and assembly clearance](references/mounting-points.md). Preserve the accepted object, adapt its receiving support locally, and subtract a solid copy of the exterior contact region with adjustable mating allowance. Refine unwanted interlocking and the insertion passage separately. Check the whole object's path across all contacts, including any staged assembly or service removal. Terrain, feet, and toes are case examples; apply the same reasoning to props, architecture, bases, walls, and other interfaces. Preserve editable tools and protected geometry; local fit does not establish a complete load-bearing mount.
+
+For the user's current FDM workflow, construct solid material volumes and leave infill to the slicer, while retaining intentional functional voids such as sockets, lighting chambers, wire routes, and tunnels. Historical thin-shell cleanup or reinforcement studies do not override that rule. Preserve accepted exteriors and tested interfaces when changing internal construction; establish process-specific requirements separately for other manufacturing methods.
 
 Keep these claims distinct:
 
@@ -135,5 +137,7 @@ For prevention details and a size-error recovery procedure, read [payload manage
 ### Preserve decisions and collect lessons
 
 After a meaningful change, update the checkpoint with the active editable file, reference authority, accepted decisions, candidate status, changed/protected scope, validation and its limits, unresolved issues, and next step. Distinguish checks run now from historical checks. Preserve rejected work only as history where appropriate; respect explicit deletions and never quietly reintroduce rejected baselines.
+
+When adding or revising guidance, write the reusable method in terms of roles, constraints, and decisions; keep named characters, anatomy, materials, dimensions, and project-specific choices in clearly labeled worked examples. Generalize the principle only as far as its evidence supports, and distinguish a transferable method from a physically proven result.
 
 Add a lesson when evidence changes how the next attempt should proceed. Record observation → consequence → changed practice → evidence → remaining uncertainty. Keep case-specific preferences in the lessons log or project checkpoint; promote them into general instructions only when the broader rule is justified.

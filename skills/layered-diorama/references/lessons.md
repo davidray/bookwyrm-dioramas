@@ -188,11 +188,11 @@ The user's present assessment is that the layered approach is working well. The 
 
 **Observation:** Smaug's adhesive-seat study kept his approved geometry and placement fixed, expanded rock locally, and subtracted solid exterior-foot tools. The first pockets left stone between toes; a toe-envelope trim cleared it. A further correction was needed because the far foot still could not slide into its pocket. A swept approach envelope opened the entrance.
 
-**Changed practice:** Build a mount around the accepted contact shape with limited, editable terrain changes. Use capped outer-surface cutters rather than the character's hollow shell. Check toe gaps, retained support, and assembly access as separate questions. Test movement of the whole assembly before claiming it can be installed; local final-pose fit is insufficient. Retain pin/socket studies as separate alternatives and reject integration operations that damage protected geometry.
+**Changed practice:** Build a receiving mount around any accepted object's exterior contact shape with limited, editable support changes. Use valid solid cutters for the interface. Check interlocking features, retained support, and assembly access as separate questions; feet and toes are examples. Test the whole object across all contacts and assembly stages before claiming it can be installed; local final-pose fit is insufficient. Retain pin/socket studies as separate alternatives and reject integration operations that damage protected geometry.
 
 **Evidence:** [Mounting method and case results](mounting-points.md), drawn from local sources `v3_layered/foot_seats_r1/README.md`, `v3_layered/foot_seats_r2/README.md`, `v3_layered/foot_seats_r3/README.md`, their build scripts, and `v3_layered/assembly_r1/README.md`.
 
-**Confidence:** Recorded preservation and local fit/path checks, not a physically proven mount. The r3 record tests a limited foot surface at 41 positions; whole-dragon insertion, glue strength, and manufacturing remain unqualified. Its mountain is still nonmanifold. Historical clearance values are prototype parameters, not general tolerances.
+**Confidence:** The early r3 record tests a limited foot surface at 41 positions; it did not establish whole-dragon insertion, glue strength, or manufacturing readiness, and its mountain was nonmanifold. This is a dated case record, not the latest project status. Later acceptance and fit work belong in the current project checkpoint. Historical clearance values are prototype parameters, not general tolerances. September 23 generalization makes the procedure applicable to other objects/supports without claiming it has been physically demonstrated for them.
 
 ## Questions the next attempts should answer
 

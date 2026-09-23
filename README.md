@@ -10,7 +10,7 @@ The repository began with the layered diorama workflow and retains the `bookwyrm
 - [Diorama lessons log](skills/layered-diorama/references/lessons.md): observations from the first Smaug/Dale attempt, the layered Dale restart, and Moria, including evidence and remaining uncertainties.
 - [Working records](skills/layered-diorama/references/working-records.md): checkpoints, attempt boundaries, focused-reference requests, and new lesson entries.
 - [Payload management](skills/layered-diorama/references/payload-management.md): compact visual reviews, bounded tool output, and recovery from oversized requests.
-- [Mounting points](skills/layered-diorama/references/mounting-points.md): shaped terrain seats derived from fixed figure geometry, toe relief, insertion clearance, and prototype limitations.
+- [Mounting points](skills/layered-diorama/references/mounting-points.md): shaped receiving supports derived from any object’s contact geometry, feature relief, assembly clearance, and a historical Smaug example.
 
 The diorama skill is a working draft. Its recorded visual and geometry improvements do not establish print readiness; physical fabrication and assembly remain an open validation stage. Storing a skill here does not install it automatically.
 
