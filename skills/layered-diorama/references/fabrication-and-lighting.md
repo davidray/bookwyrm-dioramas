@@ -28,6 +28,31 @@ After a pass, protect the tested surfaces and dimensions during later sculpting,
 
 Sources: `v3_layered/CHECKPOINT.md`, `v3_layered/gate_led_r2/README.md`, `v3_layered/mount_fit_r1/README.md`, `moria_layered/balrog_regeneration_r1/print_exports_r1/README.md`, `moria_layered/structure_print_r1/README.md`.
 
+## Glued joints: printed male/female tabs
+
+David set this on 2026-11-15: wherever two printed faces are glued together, align them with a male tab or plug printed on one face and a matching female socket printed in the other. Do not use loose dowels, filament pins or pin holes for a glued joint unless one of the exceptions below applies. Loose pins are extra parts to cut, count and lose, small holes print undersize, and a printed pair locates the joint in one move. This supersedes the dowel scheme of the early Smaug `assembly_r1` study (see [mounting points](mounting-points.md)) for any new glued joint.
+
+**Shape.** Use plain straight cylinders or prisms, built as exact solid CSG after any remesh, repair or smoothing, which round and flare them. Put a 0.3–0.5 mm chamfer on the male's tip as a lead-in and leave its sides straight. Keep the cutters editable, generate both halves together, and record each feature's position and size with the cut.
+
+**Starting sizes.** These come from sibling projects, not from a diorama print, so the first joint that uses them gets a two-piece coupon cut from the real mating geometry.
+- Clearance for a glued alignment fit: 0.2 mm all round for tabs (bookwyrm-boxes' teardrop foot tab, printed and fitted) and about 0.1 mm per side for round plugs (Doré lantern v1.4: 5.0 mm plugs in 5.2 mm sockets, not yet printed). A removable carrier or service part needs a looser, tested fit instead.
+- Depth: make the socket 0.2–0.5 mm deeper than the male stands proud, so glue has somewhere to go and the faces close fully.
+- Size: at least 5 mm across, standing out no more than about 1.5 × its width, with at least 1.5 mm of material around the socket. Check that no socket breaks through a visible surface or a thin feature.
+
+**Keying.** A glued joint should go together only one way. Use one non-round tab (a teardrop or D shape) or two features placed asymmetrically; one round plug can rotate.
+
+**Print orientation.** Put the male on the part where it prints well, standing up from a face printed top-up or sideways on a part lying flat. A long thin peg printed upright snaps at a layer line, so keep it stubby or make it a wider tab. Never put a male on a face that prints against the bed.
+
+**Cuts the user makes in the slicer.** When David splits a part for the plate in Bambu Studio himself, suggest the cut tool's plug connector (a printed male/female pair) rather than its dowel connector.
+
+**Exceptions.** Say which one applies, and why, in the working record.
+- A shaped mounting seat that already locates the object (feet in an adhesive seat, a cradle) is the female half; it needs no extra tab.
+- The joint is not glued: removable carriers, support caps, service trays, light inserts, magnets and screws.
+- Moving joints: hinges, pivots and axles.
+- The material is too thin to hold a socket without breaking through. Add a hidden lug or boss behind the seam to carry the pair; use a pin only when that does not fit.
+
+Accepted and physically passed interfaces keep the joints they passed with.
+
 ## Repair defects without discarding working geometry
 
 Establish the pre-edit defect state and protected surfaces. Localize actual defects before trying broad repair. Inspect a repair's silhouette, contact geometry, connectivity, collapsed faces, and intersections; a lower count in one checker does not establish overall improvement. Preserve rejected outputs as clearly excluded diagnostics where appropriate.
