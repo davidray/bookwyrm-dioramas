@@ -145,3 +145,7 @@ Keep the active checkpoint concise and archive superseded stages, leaving explic
 When adding or revising guidance, write the reusable method in terms of roles, constraints, and decisions; keep named characters, anatomy, materials, dimensions, and project-specific choices in clearly labeled worked examples. Generalize the principle only as far as its evidence supports, and distinguish a transferable method from a physically proven result.
 
 Add a lesson when evidence changes how the next attempt should proceed. Record observation → consequence → changed practice → evidence → remaining uncertainty. Keep case-specific preferences in the lessons log or project checkpoint; promote them into general instructions only when the broader rule is justified.
+
+## Locking a version
+
+When the user approves a diorama version for printing or as a preview, lock it as `projects/<slug>/v<N>/` in this repository (see `hoard.json`) and follow the publish-to-the-hoard skill (bookwyrm-rpg `services/library/skills/publish-to-the-hoard/SKILL.md`): it adds `piece.json`, runs `tools/check_piece_json.py`, and leaves the import into The Hoard to David after the merge. At the end of a session that changed a diorama's meshes without locking, say so in one line.
