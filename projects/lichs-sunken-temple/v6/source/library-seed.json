@@ -1,0 +1,405 @@
+{
+ "source_root": "~/code/bookwyrm-rpg-lantern-art",
+ "steps": [
+  {
+   "record": "piece",
+   "slug": "lichs-sunken-temple",
+   "revision": 1,
+   "files": [
+    {
+     "source": "dnd-lich-temple/library-renders/lich-temple_hero.png",
+     "path": "images/lich-temple_hero.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-lich-temple/library-renders/lich-temple_matched.png",
+     "path": "images/lich-temple_matched.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-lich-temple/library-renders/lich-temple_top.png",
+     "path": "images/lich-temple_top.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-lich-temple/library-renders/concept-c-lich-temple.png",
+     "path": "images/concept-c-lich-temple.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-lich-temple/library-renders/lich-temple_element-art.png",
+     "path": "images/lich-temple_element-art.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/L1-lich.stl",
+     "path": "print/L1-lich.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/F1-paladin.stl",
+     "path": "print/F1-paladin.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/F2-dwarf-cleric.stl",
+     "path": "print/F2-dwarf-cleric.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/F3-ranger.stl",
+     "path": "print/F3-ranger.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/F4-sorceress.stl",
+     "path": "print/F4-sorceress.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/Z1-ziggurat.stl",
+     "path": "print/Z1-ziggurat.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/C1-causeway-a.stl",
+     "path": "print/C1-causeway-a.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/C1-causeway-b.stl",
+     "path": "print/C1-causeway-b.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/T1-dead-tree.stl",
+     "path": "print/T1-dead-tree.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/T2-dead-tree-mirrored.stl",
+     "path": "print/T2-dead-tree-mirrored.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/S1-priest-statue.stl",
+     "path": "print/S1-priest-statue.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/S3-leaning-statue.stl",
+     "path": "print/S3-leaning-statue.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/S2-fallen-statue-a.stl",
+     "path": "print/S2-fallen-statue-a.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/S2-fallen-statue-b.stl",
+     "path": "print/S2-fallen-statue-b.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/K2-skeleton-0-wading.stl",
+     "path": "print/K2-skeleton-0-wading.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/K1-skeleton-1-wading.stl",
+     "path": "print/K1-skeleton-1-wading.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/K2-skeleton-2-wading.stl",
+     "path": "print/K2-skeleton-2-wading.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/K1-skeleton-3-wading.stl",
+     "path": "print/K1-skeleton-3-wading.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/K1-skeleton-4-stair.stl",
+     "path": "print/K1-skeleton-4-stair.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/P1-pillar-0-h60.stl",
+     "path": "print/P1-pillar-0-h60.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/P1-pillar-1-h40.stl",
+     "path": "print/P1-pillar-1-h40.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/P1-fallen-column-5.stl",
+     "path": "print/P1-fallen-column-5.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/P1-pillar-6-h25.stl",
+     "path": "print/P1-pillar-6-h25.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/X1-brazier.stl",
+     "path": "print/X1-brazier.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/R1-reeds.stl",
+     "path": "print/R1-reeds.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/O1-obelisk.stl",
+     "path": "print/O1-obelisk.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/O1-crystal.stl",
+     "path": "print/O1-crystal.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/G1-swamp-tile-F1.stl",
+     "path": "print/G1-swamp-tile-F1.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/G1-swamp-tile-F2.stl",
+     "path": "print/G1-swamp-tile-F2.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/G1-swamp-tile-B1.stl",
+     "path": "print/G1-swamp-tile-B1.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/G1-swamp-tile-B2.stl",
+     "path": "print/G1-swamp-tile-B2.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/G1-tile-clip.stl",
+     "path": "print/G1-tile-clip.stl"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/parts.json",
+     "path": "print/parts.json"
+    },
+    {
+     "source": "dnd-lich-temple/print-v1/PRINT-AND-TEST.md",
+     "path": "print/PRINT-AND-TEST.md"
+    }
+   ],
+   "metadata": {
+    "title": "The Lich's Sunken Temple",
+    "kind": "diorama",
+    "version": "v6",
+    "status": "digitally-validated",
+    "rights": {
+     "design": "ai-assisted",
+     "ip": "none",
+     "licence": "all-rights-reserved"
+    },
+    "description": "A lich stands atop a skull-carved ziggurat sinking into a misty swamp, while a paladin, dwarf cleric, ranger and sorceress advance along a broken causeway past wading skeletons, toppled priest statues and two dead trees. 510 x 440 mm base of 4 clip-jointed A1 tiles with a printed water surface; ziggurat, causeway, trees, obelisk and pillars on FDM, 5 figures, 5 skeletons, statues, braziers and 54 reeds on resin (95 prints). Built with the scene workflow using Tripo meshes (460 credits) and Claude assembly. Not yet test printed.",
+    "themes": [
+     "dungeons-and-dragons",
+     "undead",
+     "swamp",
+     "fantasy"
+    ],
+    "occasions": [
+     "halloween"
+    ],
+    "tags": [
+     "modular-tiles",
+     "tile-clips",
+     "miniatures",
+     "tripo",
+     "lich",
+     "skeletons",
+     "ziggurat",
+     "hand-painted"
+    ],
+    "size_mm": {
+     "x": 510,
+     "y": 440,
+     "z": 250
+    },
+    "material": "PLA and resin, hand painted",
+    "components": [
+     {
+      "name": "L1-lich",
+      "file": "print/L1-lich.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "F1-paladin",
+      "file": "print/F1-paladin.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "F2-dwarf-cleric",
+      "file": "print/F2-dwarf-cleric.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "F3-ranger",
+      "file": "print/F3-ranger.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "F4-sorceress",
+      "file": "print/F4-sorceress.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "Z1-ziggurat",
+      "file": "print/Z1-ziggurat.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "C1-causeway-a",
+      "file": "print/C1-causeway-a.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "C1-causeway-b",
+      "file": "print/C1-causeway-b.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "T1-dead-tree",
+      "file": "print/T1-dead-tree.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "T2-dead-tree-mirrored",
+      "file": "print/T2-dead-tree-mirrored.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "S1-priest-statue",
+      "file": "print/S1-priest-statue.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "S3-leaning-statue",
+      "file": "print/S3-leaning-statue.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "S2-fallen-statue-a",
+      "file": "print/S2-fallen-statue-a.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "S2-fallen-statue-b",
+      "file": "print/S2-fallen-statue-b.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "K2-skeleton-0-wading",
+      "file": "print/K2-skeleton-0-wading.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "K1-skeleton-1-wading",
+      "file": "print/K1-skeleton-1-wading.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "K2-skeleton-2-wading",
+      "file": "print/K2-skeleton-2-wading.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "K1-skeleton-3-wading",
+      "file": "print/K1-skeleton-3-wading.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "K1-skeleton-4-stair",
+      "file": "print/K1-skeleton-4-stair.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "P1-pillar-0-h60",
+      "file": "print/P1-pillar-0-h60.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "P1-pillar-1-h40",
+      "file": "print/P1-pillar-1-h40.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "P1-fallen-column-5",
+      "file": "print/P1-fallen-column-5.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "P1-pillar-6-h25",
+      "file": "print/P1-pillar-6-h25.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "X1-brazier (x4)",
+      "file": "print/X1-brazier.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "R1-reeds (x54)",
+      "file": "print/R1-reeds.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     },
+     {
+      "name": "O1-obelisk",
+      "file": "print/O1-obelisk.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "O1-crystal",
+      "file": "print/O1-crystal.stl",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Clear resin"
+     },
+     {
+      "name": "G1-swamp-tile-F1",
+      "file": "print/G1-swamp-tile-F1.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "G1-swamp-tile-F2",
+      "file": "print/G1-swamp-tile-F2.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "G1-swamp-tile-B1",
+      "file": "print/G1-swamp-tile-B1.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "G1-swamp-tile-B2",
+      "file": "print/G1-swamp-tile-B2.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     },
+     {
+      "name": "G1-tile-clip (x8)",
+      "file": "print/G1-tile-clip.stl",
+      "printer": "Bambu Lab A1",
+      "material": "PLA"
+     }
+    ]
+   },
+   "note": "Print set print-v1, assembly v6 (scene review about 74 %)"
+  }
+ ]
+}

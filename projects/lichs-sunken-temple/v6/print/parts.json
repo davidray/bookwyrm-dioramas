@@ -1,0 +1,445 @@
+{
+ "L1-lich": {
+  "file": "L1-lich.stl",
+  "source": "L1-lich",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   29.7,
+   46.0,
+   68.8
+  ],
+  "faces": 700000,
+  "open_or_nonmanifold_edges": 0
+ },
+ "F1-paladin": {
+  "file": "F1-paladin.stl",
+  "source": "F1-paladin",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   20.4,
+   23.6,
+   48.0
+  ],
+  "faces": 599999,
+  "open_or_nonmanifold_edges": 3
+ },
+ "F2-dwarf-cleric": {
+  "file": "F2-dwarf-cleric.stl",
+  "source": "F2-dwarf-cleric",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   17.0,
+   19.7,
+   30.0
+  ],
+  "faces": 599999,
+  "open_or_nonmanifold_edges": 4
+ },
+ "F3-ranger": {
+  "file": "F3-ranger.stl",
+  "source": "F3-ranger",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   26.3,
+   28.6,
+   38.0
+  ],
+  "faces": 599999,
+  "open_or_nonmanifold_edges": 3
+ },
+ "F4-sorceress": {
+  "file": "F4-sorceress.stl",
+  "source": "F4-sorceress",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   22.1,
+   27.4,
+   38.0
+  ],
+  "faces": 600000,
+  "open_or_nonmanifold_edges": 2
+ },
+ "Z1-ziggurat": {
+  "file": "Z1-ziggurat.stl",
+  "source": "Z1-ziggurat",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   230.0,
+   229.7,
+   162.0
+  ],
+  "faces": 803917,
+  "open_or_nonmanifold_edges": 1,
+  "note": "Summit cut flat at 165 mm for the lich and obelisk; stair faces +x in the file (rotate in the slicer as needed). Print hollow, 2-3 walls, sparse infill, 0.12-0.16 mm layers."
+ },
+ "C1-causeway-a": {
+  "file": "C1-causeway-a.stl",
+  "source": "C1-causeway",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   146.5,
+   56.7,
+   26.2
+  ],
+  "faces": 703986,
+  "open_or_nonmanifold_edges": 0,
+  "note": "Ends and bottom cut flat; sits on the water surface. Segment a from the front-left landing, b to the stair foot."
+ },
+ "C1-causeway-b": {
+  "file": "C1-causeway-b.stl",
+  "source": "C1-causeway",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   123.4,
+   56.7,
+   26.2
+  ],
+  "faces": 703995,
+  "open_or_nonmanifold_edges": 0,
+  "note": "Ends and bottom cut flat; sits on the water surface. Segment a from the front-left landing, b to the stair foot."
+ },
+ "T1-dead-tree": {
+  "file": "T1-dead-tree.stl",
+  "source": "T1-dead-tree",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   127.0,
+   197.6,
+   210.0
+  ],
+  "faces": 800000,
+  "open_or_nonmanifold_edges": 0,
+  "note": "Root mound sits on the mud bank at the left edge. Tree supports; the beaded moss strands will need cleanup (or swap for real lichen)."
+ },
+ "T2-dead-tree-mirrored": {
+  "file": "T2-dead-tree-mirrored.stl",
+  "source": "T1-dead-tree",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   120.7,
+   187.8,
+   199.5
+  ],
+  "faces": 800000,
+  "open_or_nonmanifold_edges": 0,
+  "note": "T1 mirrored at 0.95x, right edge beside the temple."
+ },
+ "S1-priest-statue": {
+  "file": "S1-priest-statue.stl",
+  "source": "S1-priest-statue",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   31.3,
+   31.8,
+   95.0
+  ],
+  "faces": 600000,
+  "open_or_nonmanifold_edges": 0,
+  "note": "95 mm; resin keeps the sun-disc staff. FDM works too if the staff is thickened."
+ },
+ "S3-leaning-statue": {
+  "file": "S3-leaning-statue.stl",
+  "source": "S1-priest-statue",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   53.3,
+   35.1,
+   90.7
+  ],
+  "faces": 601219,
+  "open_or_nonmanifold_edges": 0,
+  "note": "S1 at 1.2x, leaning 20 deg; cut flat at the waterline so it stands leaning."
+ },
+ "S2-fallen-statue-a": {
+  "file": "S2-fallen-statue-a.stl",
+  "source": "S1-priest-statue",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   27.4,
+   85.5,
+   13.3
+  ],
+  "faces": 502085,
+  "open_or_nonmanifold_edges": 0,
+  "note": "S1 lying face up, half sunk; cut at the waterline."
+ },
+ "S2-fallen-statue-b": {
+  "file": "S2-fallen-statue-b.stl",
+  "source": "S1-priest-statue",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   27.4,
+   85.5,
+   13.3
+  ],
+  "faces": 502085,
+  "open_or_nonmanifold_edges": 0,
+  "note": "S1 lying face up, half sunk; cut at the waterline."
+ },
+ "K2-skeleton-0-wading": {
+  "file": "K2-skeleton-0-wading.stl",
+  "source": "K2-skeleton-sword",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   15.4,
+   21.4,
+   33.8
+  ],
+  "faces": 500506,
+  "open_or_nonmanifold_edges": 3,
+  "note": "K2-skeleton-sword at 1.1x, cut at the waterline (8 mm deep); glue onto the water."
+ },
+ "K1-skeleton-1-wading": {
+  "file": "K1-skeleton-1-wading.stl",
+  "source": "K1-skeleton-shield",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   23.2,
+   23.9,
+   32.8
+  ],
+  "faces": 500359,
+  "open_or_nonmanifold_edges": 0,
+  "note": "K1-skeleton-shield at 1.1x, cut at the waterline (9 mm deep); glue onto the water."
+ },
+ "K2-skeleton-2-wading": {
+  "file": "K2-skeleton-2-wading.stl",
+  "source": "K2-skeleton-sword",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   15.4,
+   21.4,
+   33.8
+  ],
+  "faces": 500506,
+  "open_or_nonmanifold_edges": 3,
+  "note": "K2-skeleton-sword at 1.1x, cut at the waterline (8 mm deep); glue onto the water."
+ },
+ "K1-skeleton-3-wading": {
+  "file": "K1-skeleton-3-wading.stl",
+  "source": "K1-skeleton-shield",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   23.9,
+   24.0,
+   34.8
+  ],
+  "faces": 500529,
+  "open_or_nonmanifold_edges": 0,
+  "note": "K1-skeleton-shield at 1.1x, cut at the waterline (7 mm deep); glue onto the water."
+ },
+ "K1-skeleton-4-stair": {
+  "file": "K1-skeleton-4-stair.stl",
+  "source": "K1-skeleton-shield",
+  "printer": "resin",
+  "count": 1,
+  "size_mm": [
+   30.2,
+   27.9,
+   41.8
+  ],
+  "faces": 499998,
+  "open_or_nonmanifold_edges": 0,
+  "note": "K1-skeleton-shield full figure on its base, stands on tier 1 left of the stair."
+ },
+ "P1-pillar-0-h60": {
+  "file": "P1-pillar-0-h60.stl",
+  "source": "P1-ruined-pillar",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   26.4,
+   27.3,
+   60.0
+  ],
+  "faces": 300000,
+  "open_or_nonmanifold_edges": 278,
+  "note": "Top 60 mm of the pillar (broken top kept), standing in the water."
+ },
+ "P1-pillar-1-h40": {
+  "file": "P1-pillar-1-h40.stl",
+  "source": "P1-ruined-pillar",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   18.6,
+   20.8,
+   40.0
+  ],
+  "faces": 300606,
+  "open_or_nonmanifold_edges": 206,
+  "note": "Top 40 mm of the pillar (broken top kept), standing in the water."
+ },
+ "P1-fallen-column-5": {
+  "file": "P1-fallen-column-5.stl",
+  "source": "P1-ruined-pillar",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   18.6,
+   20.8,
+   30.0
+  ],
+  "faces": 300781,
+  "open_or_nonmanifold_edges": 178,
+  "note": "Top 30 mm of the pillar; lay it on its side in the water by T2."
+ },
+ "P1-pillar-6-h25": {
+  "file": "P1-pillar-6-h25.stl",
+  "source": "P1-ruined-pillar",
+  "printer": "A1",
+  "count": 1,
+  "size_mm": [
+   18.6,
+   20.8,
+   25.0
+  ],
+  "faces": 301128,
+  "open_or_nonmanifold_edges": 166,
+  "note": "Top 25 mm of the pillar (broken top kept), standing in the water."
+ },
+ "X1-brazier": {
+  "file": "X1-brazier.stl",
+  "source": "modelled",
+  "printer": "resin",
+  "count": 4,
+  "note": "Stone block, bowl and flame; 2 on the summit front corners, 2 at the stair foot. Overlapping parts are unioned by the slicer.",
+  "size_mm": [
+   12.0,
+   12.0,
+   22.5
+  ],
+  "faces": 60,
+  "open_or_nonmanifold_edges": 0
+ },
+ "R1-reeds": {
+  "file": "R1-reeds.stl",
+  "source": "modelled",
+  "printer": "resin",
+  "count": 54,
+  "note": "Reed clump on a 12 mm disc; blades 1.6 mm at the root. Print a plate of them; glue around banks, causeway and temple. Scale 0.8-1.3x for variety.",
+  "size_mm": [
+   17.3,
+   15.3,
+   29.4
+  ],
+  "faces": 96,
+  "open_or_nonmanifold_edges": 0
+ },
+ "O1-obelisk": {
+  "file": "O1-obelisk.stl",
+  "source": "modelled",
+  "printer": "A1",
+  "count": 1,
+  "note": "Obelisk with horned cradle, 0.75x (about 70 mm). Drill a 1.1 mm hole at the cradle centre for the crystal pin.",
+  "size_mm": [
+   24.0,
+   24.0,
+   72.7
+  ],
+  "faces": 84,
+  "open_or_nonmanifold_edges": 0
+ },
+ "O1-crystal": {
+  "file": "O1-crystal.stl",
+  "source": "modelled",
+  "printer": "resin (clear)",
+  "count": 1,
+  "note": "Octahedral crystal on a 1.1 mm pin; clear resin, can be lit from below.",
+  "size_mm": [
+   7.5,
+   7.5,
+   17.2
+  ],
+  "faces": 18,
+  "open_or_nonmanifold_edges": 0
+ },
+ "G1-swamp-tile-F1": {
+  "file": "G1-swamp-tile-F1.stl",
+  "source": "modelled heightfield",
+  "printer": "A1",
+  "count": 1,
+  "note": "Base tile F1 (x 0-255, y 0-220 mm in the 510 x 440 base; F = front row, B = back row, 1 = left, 2 = right). Underside has half-slots for the tile clips at every internal seam.",
+  "size_mm": [
+   255.0,
+   220.0,
+   25.9
+  ],
+  "faces": 104063,
+  "open_or_nonmanifold_edges": 0
+ },
+ "G1-swamp-tile-F2": {
+  "file": "G1-swamp-tile-F2.stl",
+  "source": "modelled heightfield",
+  "printer": "A1",
+  "count": 1,
+  "note": "Base tile F2 (x 255-510, y 0-220 mm in the 510 x 440 base; F = front row, B = back row, 1 = left, 2 = right). Underside has half-slots for the tile clips at every internal seam.",
+  "size_mm": [
+   255.0,
+   220.0,
+   25.5
+  ],
+  "faces": 104063,
+  "open_or_nonmanifold_edges": 0
+ },
+ "G1-swamp-tile-B1": {
+  "file": "G1-swamp-tile-B1.stl",
+  "source": "modelled heightfield",
+  "printer": "A1",
+  "count": 1,
+  "note": "Base tile B1 (x 0-255, y 220-440 mm in the 510 x 440 base; F = front row, B = back row, 1 = left, 2 = right). Underside has half-slots for the tile clips at every internal seam.",
+  "size_mm": [
+   255.0,
+   220.0,
+   21.9
+  ],
+  "faces": 113444,
+  "open_or_nonmanifold_edges": 0
+ },
+ "G1-swamp-tile-B2": {
+  "file": "G1-swamp-tile-B2.stl",
+  "source": "modelled heightfield",
+  "printer": "A1",
+  "count": 1,
+  "note": "Base tile B2 (x 255-510, y 220-440 mm in the 510 x 440 base; F = front row, B = back row, 1 = left, 2 = right). Underside has half-slots for the tile clips at every internal seam.",
+  "size_mm": [
+   255.0,
+   220.0,
+   24.6
+  ],
+  "faces": 113255,
+  "open_or_nonmanifold_edges": 0
+ },
+ "G1-tile-clip": {
+  "file": "G1-tile-clip.stl",
+  "source": "modelled",
+  "printer": "A1",
+  "count": 8,
+  "note": "Press or glue into the underside slots across each seam (8 slots).",
+  "size_mm": [
+   19.6,
+   7.6,
+   2.8
+  ],
+  "faces": 6,
+  "open_or_nonmanifold_edges": 0
+ }
+}
