@@ -1,0 +1,205 @@
+{
+ "magnet": "10 x 2 mm disc",
+ "pocket_dia_mm": 10.4,
+ "pocket_depth_mm": 2.2,
+ "pocket_centre_z_mm": 9.0,
+ "joints": 29,
+ "magnets_needed": 58,
+ "tiles": [
+  {
+   "name": "G1-ground-tile-B1.stl",
+   "pockets": 5,
+   "watertight": true,
+   "volume_removed_mm3": 932.9
+  },
+  {
+   "name": "G1-ground-tile-B2.stl",
+   "pockets": 9,
+   "watertight": true,
+   "volume_removed_mm3": 1679.3
+  },
+  {
+   "name": "G1-ground-tile-B3.stl",
+   "pockets": 9,
+   "watertight": true,
+   "volume_removed_mm3": 1679.3
+  },
+  {
+   "name": "G1-ground-tile-B4.stl",
+   "pockets": 6,
+   "watertight": true,
+   "volume_removed_mm3": 1119.5
+  },
+  {
+   "name": "G1-ground-tile-F1.stl",
+   "pockets": 5,
+   "watertight": true,
+   "volume_removed_mm3": 932.9
+  },
+  {
+   "name": "G1-ground-tile-F2.stl",
+   "pockets": 9,
+   "watertight": true,
+   "volume_removed_mm3": 1679.3
+  },
+  {
+   "name": "G1-ground-tile-F3.stl",
+   "pockets": 9,
+   "watertight": true,
+   "volume_removed_mm3": 1679.3
+  },
+  {
+   "name": "G1-ground-tile-F4.stl",
+   "pockets": 6,
+   "watertight": true,
+   "volume_removed_mm3": 1119.5
+  }
+ ],
+ "pocket_positions": [
+  [
+   210.0,
+   35.0,
+   "x"
+  ],
+  [
+   210.0,
+   105.0,
+   "x"
+  ],
+  [
+   210.0,
+   175.0,
+   "x"
+  ],
+  [
+   210.0,
+   245.0,
+   "x"
+  ],
+  [
+   210.0,
+   315.0,
+   "x"
+  ],
+  [
+   210.0,
+   385.0,
+   "x"
+  ],
+  [
+   420.0,
+   35.0,
+   "x"
+  ],
+  [
+   420.0,
+   105.0,
+   "x"
+  ],
+  [
+   420.0,
+   175.0,
+   "x"
+  ],
+  [
+   420.0,
+   245.0,
+   "x"
+  ],
+  [
+   420.0,
+   315.0,
+   "x"
+  ],
+  [
+   420.0,
+   385.0,
+   "x"
+  ],
+  [
+   630.0,
+   35.0,
+   "x"
+  ],
+  [
+   630.0,
+   105.0,
+   "x"
+  ],
+  [
+   630.0,
+   175.0,
+   "x"
+  ],
+  [
+   630.0,
+   245.0,
+   "x"
+  ],
+  [
+   630.0,
+   315.0,
+   "x"
+  ],
+  [
+   630.0,
+   385.0,
+   "x"
+  ],
+  [
+   105.0,
+   210.0,
+   "y"
+  ],
+  [
+   175.0,
+   210.0,
+   "y"
+  ],
+  [
+   245.0,
+   210.0,
+   "y"
+  ],
+  [
+   315.0,
+   210.0,
+   "y"
+  ],
+  [
+   385.0,
+   210.0,
+   "y"
+  ],
+  [
+   455.0,
+   210.0,
+   "y"
+  ],
+  [
+   525.0,
+   210.0,
+   "y"
+  ],
+  [
+   595.0,
+   210.0,
+   "y"
+  ],
+  [
+   665.0,
+   210.0,
+   "y"
+  ],
+  [
+   735.0,
+   210.0,
+   "y"
+  ],
+  [
+   805.0,
+   210.0,
+   "y"
+  ]
+ ]
+}
