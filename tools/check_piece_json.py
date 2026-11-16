@@ -49,6 +49,7 @@ LICENCES = (
     "CC-BY-NC-SA",
 )
 NO_IP = "none"
+COMPONENT_KEYS = ("name", "file", "part_id", "quantity", "printer", "material")
 PRINT_EXTENSIONS = ".stl .3mf .obj .goo .ctb .gcode .bgcode .step .stp".split()  # role "print"
 SKIP_DIRS = ("__pycache__", "tmp", "scratch")
 SKIP_SUFFIX = ".blend1"
@@ -124,6 +125,15 @@ def problems_for(path: Path, metadata_only: bool = False) -> tuple[list[str], tu
     if not isinstance(components, list):
         problems.append("components: expected a list")
         components = []
+    for i, component in enumerate(components):
+        label = f"components[{i}]"
+        if not isinstance(component, dict):
+            problems.append(f"{label}: expected an object")
+            continue
+        problems += [f"{label}.{k}: unknown field" for k in component if k not in COMPONENT_KEYS]
+        quantity = component.get("quantity", 1)
+        if type(quantity) is not int or quantity < 1:
+            problems.append(f"{label}.quantity: {quantity!r} is not a positive integer")
     named = {c.get("file") for c in components if isinstance(c, dict)}
     imported = {}  # revision path -> component file
     for file in sorted(f for f in named if isinstance(f, str)):
