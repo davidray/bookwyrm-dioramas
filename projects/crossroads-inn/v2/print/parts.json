@@ -1,0 +1,253 @@
+{
+ "parts": [
+  {
+   "file": "B1-inn.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    123.0,
+    136.6,
+    190.0
+   ]
+  },
+  {
+   "file": "B2-wizard-tower.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    133.5,
+    95.6,
+    230.0
+   ]
+  },
+  {
+   "file": "B3-forge-s88.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    154.1,
+    99.4,
+    92.4
+   ]
+  },
+  {
+   "file": "C2-pony.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    39.3,
+    26.0,
+    34.0
+   ]
+  },
+  {
+   "file": "F1-dwarf-fighter.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    26.7,
+    17.9,
+    34.0
+   ]
+  },
+  {
+   "file": "F2-halfling-bard.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    18.4,
+    17.4,
+    30.0
+   ]
+  },
+  {
+   "file": "F3-tiefling-warlock.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    30.5,
+    25.7,
+    42.0
+   ]
+  },
+  {
+   "file": "F4-paladin.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    21.7,
+    23.3,
+    40.0
+   ]
+  },
+  {
+   "file": "F5-elf-wizard.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    22.0,
+    17.9,
+    42.0
+   ]
+  },
+  {
+   "file": "G1-ground-tile-B1.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    220.0,
+    150.0,
+    15.3
+   ]
+  },
+  {
+   "file": "G1-ground-tile-B2.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    220.0,
+    150.0,
+    14.7
+   ]
+  },
+  {
+   "file": "G1-ground-tile-F1.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    220.0,
+    150.0,
+    15.4
+   ]
+  },
+  {
+   "file": "G1-ground-tile-F2.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    220.0,
+    150.0,
+    14.3
+   ]
+  },
+  {
+   "file": "P1-signpost.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    52.8,
+    33.2,
+    67.4
+   ]
+  },
+  {
+   "file": "P2-barrels.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 2,
+   "size_mm": [
+    22.9,
+    23.2,
+    26.2
+   ]
+  },
+  {
+   "file": "P3-crates.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    28.0,
+    15.0,
+    23.0
+   ]
+  },
+  {
+   "file": "P4-inn-sign.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    35.0,
+    8.0,
+    25.0
+   ]
+  },
+  {
+   "file": "Q1-quest-board.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    53.0,
+    20.7,
+    52.0
+   ]
+  },
+  {
+   "file": "Q2-well.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    39.6,
+    36.2,
+    48.0
+   ]
+  },
+  {
+   "file": "T1-tree-s72.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    135.0,
+    83.3,
+    144.0
+   ]
+  },
+  {
+   "file": "T1-tree-s80.stl",
+   "printer": "Bambu A1",
+   "count": 1,
+   "size_mm": [
+    150.1,
+    92.6,
+    160.0
+   ]
+  },
+  {
+   "file": "W1-cage-wagon-body.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    123.7,
+    48.2,
+    62.0
+   ]
+  },
+  {
+   "file": "W1-cage-wagon-lid.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    25.6,
+    27.7,
+    5.5
+   ]
+  },
+  {
+   "file": "C1-owlbear-s58.stl",
+   "printer": "Elegoo Saturn 4 Ultra 12K",
+   "count": 1,
+   "size_mm": [
+    19.1,
+    21.4,
+    19.7
+   ]
+  }
+ ],
+ "magnets": {
+  "size": "6 x 2 mm disc",
+  "count": 16,
+  "pockets": "4 per joint, both joints, mirrored on both tiles"
+ },
+ "wagon": {
+  "lid": "lift-off cage roof with a 0.8 mm locating skirt; prints separately",
+  "socket": "20.6 mm round, 0.8 mm deep in the cage floor: takes any beast on a 20 mm round base, max 22 x 21 mm footprint and 26 mm tall"
+ }
+}

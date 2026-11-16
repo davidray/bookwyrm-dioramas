@@ -1,0 +1,115 @@
+{
+ "source_root": "~/code/bookwyrm-rpg-lantern-art",
+ "steps": [
+  {
+   "record": "piece",
+   "slug": "crossroads-inn",
+   "revision": 2,
+   "files": [
+    {
+     "source": "dnd-crossroads-inn/library-renders/scene_front34.png",
+     "path": "images/crossroads-inn-hero.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-crossroads-inn/library-renders/scene_square.png",
+     "path": "images/crossroads-inn-square.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-crossroads-inn/library-renders/wagon_assembled.png",
+     "path": "images/wagon-assembled.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-crossroads-inn/library-renders/wagon_exploded.png",
+     "path": "images/wagon-exploded.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-crossroads-inn/library-renders/scene_top.png",
+     "path": "images/crossroads-inn-top.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-crossroads-inn/library-renders/concept-b-crossroads-inn.png",
+     "path": "images/concept-b-crossroads-inn.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-crossroads-inn/library-renders/paladin-review.png",
+     "path": "images/paladin-review.png",
+     "role": "render"
+    },
+    {
+     "source": "dnd-crossroads-inn/print-v1/crossroads-inn-v1-ground-tiles.3mf",
+     "path": "print/crossroads-inn-v1-ground-tiles.3mf"
+    },
+    {
+     "source": "dnd-crossroads-inn/print-v1/crossroads-inn-v1-A1-buildings-trees.3mf",
+     "path": "print/crossroads-inn-v1-A1-buildings-trees.3mf"
+    },
+    {
+     "source": "dnd-crossroads-inn/print-v2/crossroads-inn-v2-resin-minis-props.3mf",
+     "path": "print/crossroads-inn-v2-resin-minis-props.3mf"
+    },
+    {
+     "source": "dnd-crossroads-inn/print-v2/PRINT-NOTES.md",
+     "path": "print/PRINT-NOTES.md"
+    },
+    {
+     "source": "dnd-crossroads-inn/print-v2/parts.json",
+     "path": "print/parts.json"
+    }
+   ],
+   "metadata": {
+    "title": "Crossroads Inn",
+    "kind": "diorama",
+    "version": "v2",
+    "status": "digitally-validated",
+    "rights": {
+     "design": "ai-assisted",
+     "ip": "none",
+     "licence": "all-rights-reserved"
+    },
+    "description": "A fantasy waystation on a cobbled crossroads at the edge of the wilds, on a 440 x 300 mm base of 4 magnet-jointed tiles: a timber-framed inn, a leaning wizard's tower with an observatory dome, an open forge, a cage wagon with a lift-off roof and a 20 mm base socket, so its owl-beaked bear can be swapped for another beast, a well, quest board, signpost and two oaks (FDM), plus five 32 mm adventurers, a pony and small props for resin. Built with the scene workflow (Tripo pieces, Claude assembly). Not test printed yet.",
+    "themes": [
+     "fantasy",
+     "dungeons-and-dragons"
+    ],
+    "tags": [
+     "modular-tiles",
+     "magnets",
+     "miniatures",
+     "hand-painted"
+    ],
+    "size_mm": {
+     "x": 440,
+     "y": 300,
+     "z": 242
+    },
+    "material": "White PLA and resin, hand painted",
+    "components": [
+     {
+      "name": "Ground tiles (4, magnet pockets for 16 x 6x2 mm magnets)",
+      "file": "print/crossroads-inn-v1-ground-tiles.3mf",
+      "printer": "Bambu Lab A1",
+      "material": "White PLA"
+     },
+     {
+      "name": "Inn, wizard's tower, forge, well, two oaks",
+      "file": "print/crossroads-inn-v1-A1-buildings-trees.3mf",
+      "printer": "Bambu Lab A1",
+      "material": "White PLA"
+     },
+     {
+      "name": "Five adventurers, pony, owl-beaked bear, cage wagon (body + lift-off roof), quest board and props",
+      "file": "print/crossroads-inn-v2-resin-minis-props.3mf",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+     }
+    ]
+   }
+  }
+ ]
+}
