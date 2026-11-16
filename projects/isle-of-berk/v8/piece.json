@@ -78,7 +78,7 @@
     {
       "name": "V1-longship-v2",
       "file": "print/V1-longship-v2.stl",
-      "count": 2
+      "quantity": 2
     },
     {
       "name": "B7-stables",
@@ -87,12 +87,12 @@
     {
       "name": "K1-fish-rack",
       "file": "print/K1-fish-rack.stl",
-      "count": 3
+      "quantity": 3
     },
     {
       "name": "K1-barrel",
       "file": "print/K1-barrel.stl",
-      "count": 5
+      "quantity": 5
     },
     {
       "name": "G1-ground-tile-B1",
@@ -145,7 +145,7 @@
     {
       "name": "G1-tile-clip",
       "file": "print/G1-tile-clip.stl",
-      "count": 34
+      "quantity": 34
     },
     {
       "name": "D2-blue-dragon-v3",
@@ -162,32 +162,32 @@
     {
       "name": "F1-viking-a1-v1",
       "file": "print/F1-viking-a1-v1.stl",
-      "count": 6
+      "quantity": 6
     },
     {
       "name": "F1-viking-a2-v1",
       "file": "print/F1-viking-a2-v1.stl",
-      "count": 6
+      "quantity": 6
     },
     {
       "name": "F1-viking-b1-v1",
       "file": "print/F1-viking-b1-v1.stl",
-      "count": 6
+      "quantity": 6
     },
     {
       "name": "F1-viking-b2-v1",
       "file": "print/F1-viking-b2-v1.stl",
-      "count": 6
+      "quantity": 6
     },
     {
       "name": "K2-sheep-standing",
       "file": "print/K2-sheep-standing.stl",
-      "count": 5
+      "quantity": 5
     },
     {
       "name": "K2-sheep-grazing",
       "file": "print/K2-sheep-grazing.stl",
-      "count": 5
+      "quantity": 5
     },
     {
       "name": "D4-night-fury-v1",
