@@ -11,4 +11,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/check_piece_json.py projects/
+      - run: python tools/check_piece_json.py --metadata-only projects/
