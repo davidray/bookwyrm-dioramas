@@ -1,0 +1,58 @@
+{
+  "piece_json": 1,
+  "slug": "victorian-christmas-village",
+  "version": "v14",
+  "title": "Victorian Christmas village",
+  "kind": "diorama",
+  "status": "prototype",
+  "rights": {
+    "design": "ai-assisted",
+    "ip": "none",
+    "licence": "all-rights-reserved"
+  },
+  "description": "A snowy Victorian Christmas village on an 840 x 420 mm base of 8 magnet-jointed tiles: a one-piece church hollowed for a puck light, an inn, bakery, cottages and houses for FDM, plus a 160 mm tree, lamps, firs and figures for resin. Built with the scene workflow using Meshy meshes (1012 credits). The base tiles have been printed.",
+  "themes": [
+    "victorian",
+    "villages"
+  ],
+  "occasions": [
+    "christmas",
+    "winter"
+  ],
+  "tags": [
+    "modular-tiles",
+    "magnets",
+    "lit-buildings",
+    "meshy",
+    "hand-painted"
+  ],
+  "size_mm": {
+    "x": 840,
+    "y": 420,
+    "z": 251
+  },
+  "material": "White PLA and resin, hand painted",
+  "source": {
+    "repo": "davidray/bookwyrm-dioramas"
+  },
+  "components": [
+    {
+      "name": "Base tiles (8, magnet pockets)",
+      "file": "print/christmas-village-v12-base-tiles.3mf",
+      "printer": "Bambu Lab (FDM)",
+      "material": "White PLA"
+    },
+    {
+      "name": "Buildings: one-piece church, B3 house body and roof, bakery, inn, B1 and B6 cottages",
+      "file": "print/christmas-village-v14-buildings.3mf",
+      "printer": "Bambu Lab (FDM)",
+      "material": "White PLA"
+    },
+    {
+      "name": "Props and figures (10 objects, 12 prints)",
+      "file": "print/christmas-village-v12-props-figures.3mf",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+    }
+  ]
+}
