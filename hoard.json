@@ -3,9 +3,16 @@
   "family": {
     "name": "Layered dioramas",
     "builds": "Printed scene dioramas built in layers: terrain, buildings, characters and creatures, effects and lighting",
-    "skill": {"path": "skills/layered-diorama/SKILL.md"},
-    "kinds": ["diorama"]
+    "skill": {
+      "repo": "davidray/bookwyrm-skills",
+      "path": "families/layered-diorama/SKILL.md"
+    },
+    "kinds": [
+      "diorama"
+    ]
   },
-  "projects": ["projects/*"],
+  "projects": [
+    "projects/*"
+  ],
   "new_projects": "projects/<slug>/"
 }

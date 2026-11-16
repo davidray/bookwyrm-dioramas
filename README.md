@@ -1,46 +1,15 @@
-# Bookwyrm Skills and Workflows
+# bookwyrm-dioramas
 
-A shared home for how Bookwyrm work gets done: reusable skills, supporting instructions, practical tools, and lessons learned across projects.
+Project text for David's layered dioramas: generator scripts, parameters, design notes, checkpoints and review notes, one folder per product under `projects/<slug>/`.
 
-The repository began with the layered diorama workflow and retains the `bookwyrm-dioramas` repository name. Its scope can grow to include other Bookwyrm-related skills and the resources they share.
+## Where things live
 
-## Current contents
+- **How to build a diorama:** the layered diorama skill in [davidray/bookwyrm-skills](https://github.com/davidray/bookwyrm-skills), `families/layered-diorama/SKILL.md`. Attach bookwyrm-skills to a build project beside this repo.
+- **Saving and promoting a build:** `workshop/SKILL.md` in bookwyrm-skills. A build saves its files to The Hoard as a draft change set, and David promotes it there. Promotion sets the version (`v<N>`) and status.
+- **Meshes, Blender files, renders and print files** live in The Hoard's store, never in this repo. `.gitignore` keeps them out.
 
-- [Layered Diorama skill](skills/layered-diorama/SKILL.md): develop 3D dioramas from concept art through element breakdown, bottom-up construction, component development, integration, and print engineering.
-- [Diorama lessons log](skills/layered-diorama/references/lessons.md): observations from the first Smaug/Dale attempt, the layered Dale restart, and Moria, including evidence and remaining uncertainties.
-- [Working records](skills/layered-diorama/references/working-records.md): checkpoints, attempt boundaries, focused-reference requests, and new lesson entries.
-- [Payload management](skills/layered-diorama/references/payload-management.md): compact visual reviews, bounded tool output, and recovery from oversized requests.
-- [Mounting points](skills/layered-diorama/references/mounting-points.md): shaped receiving supports derived from any object’s contact geometry, feature relief, assembly clearance, and a historical Smaug example.
-- [Fabrication and lighting](skills/layered-diorama/references/fabrication-and-lighting.md): representative physical tests, protected interfaces, local repairs, export/slicer validation, and serviceable lighting.
+## Locked versions already here
 
-The diorama skill is a working draft. It includes user-reported local print/fit successes alongside unresolved mesh, full-assembly, strength, and lighting questions. These local results do not establish complete diorama print readiness. Storing a skill here does not install it automatically.
+`projects/crossroads-inn/v2`, `isle-of-berk/v8`, `lichs-sunken-temple/v6` and `victorian-christmas-village/v14` and `v15` stay as they were locked: `piece.json`, `print/SHA256SUMS`, `print/parts.json` and the source notes. Their print files are in The Hoard (all 78 listed files, 75 distinct, checked by hash on 2026-11-16). New versions are not locked as folders here any more, so new versions have no `SHA256SUMS` and no `sources/files` step; the store records every file's hash.
 
-## Organization
-
-Only `skills/` exists today. Add other directories when there is concrete content for them; empty placeholders are unnecessary.
-
-| Directory | Purpose |
-| --- | --- |
-| `skills/` | Individual skills, each in a named folder with a `SKILL.md` entry point and its supporting resources. |
-| `templates/` | Formats shared by multiple skills, such as project briefs, checkpoints, review records, and handoffs. |
-| `scripts/` | Shared utilities for validation, contact sheets, file checks, and other repeated tasks. |
-| `docs/` | Cross-project principles, workflow explanations, and repository maintenance guidance. |
-| `examples/` | Small, curated examples of useful inputs and outputs, without large project assets. |
-| `evaluations/` | Representative tasks and review criteria for checking whether skills produce the intended behavior. |
-
-Keep resources used by one skill inside that skill's folder. Move a resource into a shared directory only when multiple skills actually use it, and update their references. Avoid maintaining duplicate copies.
-
-## What belongs here
-
-Include reusable instructions, distilled lessons, supporting reference documents, small examples, and utilities that improve repeated work. Record the scope and evidence behind a lesson, and distinguish observed results from assumptions or practices still being tested.
-
-Keep artwork, models, renders, generated project outputs, credentials, raw audits, and individual project histories with their original projects. Project-specific scripts also stay there unless deliberately adapted into reusable utilities. Carry useful technical learning across projects while keeping design decisions tied to their active project and approved references.
-
-Local source paths in the diorama lessons log identify historical evidence outside this repository. They are provenance notes, not repository links or required runtime files.
-
-## Maintaining the collection
-
-- Give each skill a clear purpose and scope. Keep its main instructions concise and place detailed supporting material alongside it.
-- Add or revise guidance when actual work reveals a useful lesson. Preserve its evidence and limitations instead of turning every local preference into a universal rule.
-- When changing files, check relative links and applicable skill metadata. Run relevant utilities or evaluations when their behavior changes.
-- Review the staged files before committing so unrelated project assets and generated outputs do not enter the repository.
+The `piece.json` check in `.github/workflows` still runs over these folders, using `tools/check_piece_json.py`.
