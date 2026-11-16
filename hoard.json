@@ -6,6 +6,6 @@
     "skill": {"path": "skills/layered-diorama/SKILL.md"},
     "kinds": ["diorama"]
   },
-  "projects": [],
+  "projects": ["projects/*"],
   "new_projects": "projects/<slug>/"
 }
