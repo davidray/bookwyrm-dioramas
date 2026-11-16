@@ -1,0 +1,201 @@
+{
+  "piece_json": 1,
+  "slug": "isle-of-berk",
+  "version": "v8",
+  "title": "Isle of Berk",
+  "kind": "diorama",
+  "status": "digitally-validated",
+  "rights": {
+    "design": "ai-assisted",
+    "ip": "how-to-train-your-dragon",
+    "licence": "personal-use-only"
+  },
+  "description": "A summer Viking village on a rocky island, inspired by How to Train Your Dragon: mead hall, longhouses, watchtower, chain-domed dragon arena with a Night Fury on top, a Monstrous Nightmare on a longhouse roof, a Deadly Nadder and a Gronckle flying on clear rods, two longships, 24 Vikings and 10 sheep. 840 x 600 mm island in 12 clip-joined tiles, 105 prints, all within the Bambu A1 bed. Built with the scene workflow using Meshy meshes (923 credits). Not yet test printed.",
+  "themes": [
+    "how-to-train-your-dragon",
+    "dragons",
+    "vikings",
+    "fantasy"
+  ],
+  "tags": [
+    "modular-tiles",
+    "tile-clips",
+    "miniatures",
+    "meshy",
+    "dragons",
+    "longships",
+    "vikings",
+    "sheep",
+    "hand-painted"
+  ],
+  "size_mm": {
+    "x": 840,
+    "y": 600,
+    "z": 398
+  },
+  "printer": "Bambu Lab A1",
+  "material": "White PLA, hand painted",
+  "source": {
+    "repo": "davidray/bookwyrm-dioramas"
+  },
+  "components": [
+    {
+      "name": "B1-mead-hall-v1",
+      "file": "print/B1-mead-hall-v1.stl"
+    },
+    {
+      "name": "B2-dragon-roof-longhouse-v2",
+      "file": "print/B2-dragon-roof-longhouse-v2.stl"
+    },
+    {
+      "name": "B3-small-longhouse-v1",
+      "file": "print/B3-small-longhouse-v1.stl"
+    },
+    {
+      "name": "B4-twin-longhouse-v2",
+      "file": "print/B4-twin-longhouse-v2.stl"
+    },
+    {
+      "name": "B5-turf-longhouse-v1",
+      "file": "print/B5-turf-longhouse-v1.stl"
+    },
+    {
+      "name": "B6-cliff-house-v2",
+      "file": "print/B6-cliff-house-v2.stl"
+    },
+    {
+      "name": "W1-watchtower-v1",
+      "file": "print/W1-watchtower-v1.stl"
+    },
+    {
+      "name": "S1-statue-sword-v1",
+      "file": "print/S1-statue-sword-v1.stl"
+    },
+    {
+      "name": "S2-statue-shield-v1",
+      "file": "print/S2-statue-shield-v1.stl"
+    },
+    {
+      "name": "V1-longship-v2",
+      "file": "print/V1-longship-v2.stl",
+      "count": 2
+    },
+    {
+      "name": "B7-stables",
+      "file": "print/B7-stables.stl"
+    },
+    {
+      "name": "K1-fish-rack",
+      "file": "print/K1-fish-rack.stl",
+      "count": 3
+    },
+    {
+      "name": "K1-barrel",
+      "file": "print/K1-barrel.stl",
+      "count": 5
+    },
+    {
+      "name": "G1-ground-tile-B1",
+      "file": "print/G1-ground-tile-B1.stl"
+    },
+    {
+      "name": "G1-ground-tile-B2",
+      "file": "print/G1-ground-tile-B2.stl"
+    },
+    {
+      "name": "G1-ground-tile-B3",
+      "file": "print/G1-ground-tile-B3.stl"
+    },
+    {
+      "name": "G1-ground-tile-B4",
+      "file": "print/G1-ground-tile-B4.stl"
+    },
+    {
+      "name": "G1-ground-tile-F1",
+      "file": "print/G1-ground-tile-F1.stl"
+    },
+    {
+      "name": "G1-ground-tile-F2",
+      "file": "print/G1-ground-tile-F2.stl"
+    },
+    {
+      "name": "G1-ground-tile-F3",
+      "file": "print/G1-ground-tile-F3.stl"
+    },
+    {
+      "name": "G1-ground-tile-F4",
+      "file": "print/G1-ground-tile-F4.stl"
+    },
+    {
+      "name": "G1-ground-tile-M1",
+      "file": "print/G1-ground-tile-M1.stl"
+    },
+    {
+      "name": "G1-ground-tile-M2",
+      "file": "print/G1-ground-tile-M2.stl"
+    },
+    {
+      "name": "G1-ground-tile-M3",
+      "file": "print/G1-ground-tile-M3.stl"
+    },
+    {
+      "name": "G1-ground-tile-M4",
+      "file": "print/G1-ground-tile-M4.stl"
+    },
+    {
+      "name": "G1-tile-clip",
+      "file": "print/G1-tile-clip.stl",
+      "count": 34
+    },
+    {
+      "name": "D2-blue-dragon-v3",
+      "file": "print/D2-blue-dragon-v3.stl"
+    },
+    {
+      "name": "D3-brown-dragon-v3",
+      "file": "print/D3-brown-dragon-v3.stl"
+    },
+    {
+      "name": "A1-chain-dome",
+      "file": "print/A1-chain-dome.stl"
+    },
+    {
+      "name": "F1-viking-a1-v1",
+      "file": "print/F1-viking-a1-v1.stl",
+      "count": 6
+    },
+    {
+      "name": "F1-viking-a2-v1",
+      "file": "print/F1-viking-a2-v1.stl",
+      "count": 6
+    },
+    {
+      "name": "F1-viking-b1-v1",
+      "file": "print/F1-viking-b1-v1.stl",
+      "count": 6
+    },
+    {
+      "name": "F1-viking-b2-v1",
+      "file": "print/F1-viking-b2-v1.stl",
+      "count": 6
+    },
+    {
+      "name": "K2-sheep-standing",
+      "file": "print/K2-sheep-standing.stl",
+      "count": 5
+    },
+    {
+      "name": "K2-sheep-grazing",
+      "file": "print/K2-sheep-grazing.stl",
+      "count": 5
+    },
+    {
+      "name": "D4-night-fury-v1",
+      "file": "print/D4-night-fury-v1.stl"
+    },
+    {
+      "name": "D1-nightmare-v1",
+      "file": "print/D1-nightmare-v1.stl"
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+ "ground": "G1-ground-v6",
+ "ground_res": 0.6,
+ "cam_az_deg": -28,
+ "pieces": [
+  {
+   "id": "B1-mead-hall",
+   "stl": "L2-leaves/B1-mead-hall/B1-mead-hall-v1_scaled.stl",
+   "el": "B1-mead-hall"
+  },
+  {
+   "id": "B2-dragon-roof-longhouse",
+   "stl": "L2-leaves/B2-dragon-roof-longhouse/B2-dragon-roof-longhouse-v2_scaled.stl",
+   "el": "B2-dragon-roof-longhouse"
+  },
+  {
+   "id": "B3-small-longhouse",
+   "stl": "L2-leaves/B3-small-longhouse/B3-small-longhouse-v1_scaled.stl",
+   "el": "B3-small-longhouse"
+  },
+  {
+   "id": "B4-twin-longhouse",
+   "stl": "L2-leaves/B4-twin-longhouse/B4-twin-longhouse-v2_scaled.stl",
+   "el": "B4-twin-longhouse"
+  },
+  {
+   "id": "B5-turf-longhouse",
+   "stl": "L2-leaves/B5-turf-longhouse/B5-turf-longhouse-v1_scaled.stl",
+   "el": "B5-turf-longhouse",
+   "rot_deg": -118
+  },
+  {
+   "id": "B6-cliff-house",
+   "stl": "L2-leaves/B6-cliff-house/B6-cliff-house-v2_scaled.stl",
+   "el": "B6-cliff-house"
+  },
+  {
+   "id": "W1-watchtower",
+   "stl": "L2-leaves/W1-watchtower/W1-watchtower-v1_scaled.stl",
+   "el": "W1-watchtower",
+   "scale": 1.15
+  },
+  {
+   "id": "S1-statue-sword",
+   "stl": "L2-leaves/S1-statue-sword/S1-statue-sword-v1_scaled.stl",
+   "el": "S1-statue-sword"
+  },
+  {
+   "id": "S2-statue-shield",
+   "stl": "L2-leaves/S2-statue-shield/S2-statue-shield-v1_scaled.stl",
+   "el": "S2-statue-shield"
+  },
+  {
+   "id": "D1-nightmare",
+   "stl": "L2-leaves/D1-nightmare/D1-nightmare-v1_scaled.stl",
+   "on": "B2-dragon-roof-longhouse",
+   "dz": -4,
+   "rot_deg": 24,
+   "scale": 1.15
+  },
+  {
+   "id": "D2-blue-dragon",
+   "stl": "L2-leaves/D2-blue-dragon/D2-blue-dragon-v3_scaled.stl",
+   "el": "D2-blue-dragon",
+   "z": 340,
+   "scale": 0.65,
+   "rod": true,
+   "rot_deg": 62
+  },
+  {
+   "id": "D3-brown-dragon",
+   "stl": "L2-leaves/D3-brown-dragon/D3-brown-dragon-v3_scaled.stl",
+   "el": "D3-brown-dragon",
+   "z": 280,
+   "scale": 1.0,
+   "rod": true,
+   "rot_deg": -118
+  },
+  {
+   "id": "V1-longship-a",
+   "stl": "L2-leaves/V1-longship/V1-longship-v2_scaled.stl",
+   "el": "V1-longship-a",
+   "z": 0,
+   "scale": 1.15,
+   "dz": -3,
+   "rot_deg": 41
+  },
+  {
+   "id": "V1-longship-b",
+   "stl": "L2-leaves/V1-longship/V1-longship-v2_scaled.stl",
+   "el": "V1-longship-b",
+   "z": 0,
+   "scale": 1.15,
+   "dz": -3,
+   "rot_deg": 45
+  },
+  {
+   "id": "A1-chain-dome",
+   "stl": "L2-modelled/A1-chain-dome.stl",
+   "x": 650,
+   "y": 285,
+   "z": 122,
+   "rot_deg": 0
+  },
+  {
+   "id": "B7-stables",
+   "stl": "L2-modelled/B7-stables.stl",
+   "x": 728,
+   "y": 408,
+   "rot_deg": -5
+  },
+  {
+   "id": "K1-rack-0",
+   "stl": "L2-modelled/K1-fish-rack.stl",
+   "x": 400,
+   "y": 178,
+   "rot_deg": 0
+  },
+  {
+   "id": "K1-rack-1",
+   "stl": "L2-modelled/K1-fish-rack.stl",
+   "x": 470,
+   "y": 178,
+   "rot_deg": 0
+  },
+  {
+   "id": "K1-rack-2",
+   "stl": "L2-modelled/K1-fish-rack.stl",
+   "x": 545,
+   "y": 178,
+   "rot_deg": 0
+  },
+  {
+   "id": "K1-barrel-0",
+   "stl": "L2-modelled/K1-barrel.stl",
+   "x": 430,
+   "y": 150,
+   "rot_deg": 0
+  },
+  {
+   "id": "K1-barrel-1",
+   "stl": "L2-modelled/K1-barrel.stl",
+   "x": 442,
+   "y": 152,
+   "rot_deg": 0
+  },
+  {
+   "id": "K1-barrel-2",
+   "stl": "L2-modelled/K1-barrel.stl",
+   "x": 515,
+   "y": 148,
+   "rot_deg": 0
+  },
+  {
+   "id": "K1-barrel-3",
+   "stl": "L2-modelled/K1-barrel.stl",
+   "x": 580,
+   "y": 170,
+   "rot_deg": 0
+  },
+  {
+   "id": "K1-barrel-4",
+   "stl": "L2-modelled/K1-barrel.stl",
+   "x": 588,
+   "y": 160,
+   "rot_deg": 0
+  },
+  {
+   "id": "F1-viking-0",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a1-v1.stl",
+   "x": 420,
+   "y": 180,
+   "rot_deg": -58
+  },
+  {
+   "id": "F1-viking-1",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a2-v1.stl",
+   "x": 575,
+   "y": 185,
+   "rot_deg": -21
+  },
+  {
+   "id": "F1-viking-2",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b1-v1.stl",
+   "x": 478,
+   "y": 215,
+   "rot_deg": -44
+  },
+  {
+   "id": "F1-viking-3",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b2-v1.stl",
+   "x": 500,
+   "y": 290,
+   "rot_deg": -7
+  },
+  {
+   "id": "F1-viking-4",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a1-v1.stl",
+   "x": 520,
+   "y": 380,
+   "rot_deg": -30
+  },
+  {
+   "id": "F1-viking-5",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a2-v1.stl",
+   "x": 505,
+   "y": 395,
+   "rot_deg": -53
+  },
+  {
+   "id": "F1-viking-6",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b1-v1.stl",
+   "x": 340,
+   "y": 200,
+   "rot_deg": -16
+  },
+  {
+   "id": "F1-viking-7",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b2-v1.stl",
+   "x": 200,
+   "y": 160,
+   "rot_deg": -39
+  },
+  {
+   "id": "F1-viking-8",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a1-v1.stl",
+   "x": 760,
+   "y": 345,
+   "rot_deg": -2
+  },
+  {
+   "id": "F1-viking-9",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a2-v1.stl",
+   "x": 330,
+   "y": 240,
+   "rot_deg": -25
+  },
+  {
+   "id": "F1-viking-10",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b1-v1.stl",
+   "x": 160,
+   "y": 250,
+   "rot_deg": -48
+  },
+  {
+   "id": "F1-viking-11",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b2-v1.stl",
+   "x": 610,
+   "y": 180,
+   "rot_deg": -11
+  },
+  {
+   "id": "F1-viking-12",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a1-v1.stl",
+   "x": 455,
+   "y": 190,
+   "rot_deg": -34
+  },
+  {
+   "id": "F1-viking-13",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a2-v1.stl",
+   "x": 540,
+   "y": 415,
+   "rot_deg": -57
+  },
+  {
+   "id": "F1-viking-14",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b1-v1.stl",
+   "x": 610,
+   "y": 200,
+   "rot_deg": -20
+  },
+  {
+   "id": "F1-viking-15",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b2-v1.stl",
+   "x": 380,
+   "y": 330,
+   "rot_deg": -43
+  },
+  {
+   "id": "F1-viking-16",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a1-v1.stl",
+   "x": 565,
+   "y": 290,
+   "rot_deg": -58
+  },
+  {
+   "id": "F1-viking-17",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a2-v1.stl",
+   "x": 568,
+   "y": 318,
+   "rot_deg": -21
+  },
+  {
+   "id": "F1-viking-18",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b1-v1.stl",
+   "x": 340,
+   "y": 285,
+   "rot_deg": -44
+  },
+  {
+   "id": "F1-viking-19",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b2-v1.stl",
+   "x": 300,
+   "y": 370,
+   "rot_deg": -7
+  },
+  {
+   "id": "F1-viking-20",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a1-v1.stl",
+   "x": 745,
+   "y": 182,
+   "rot_deg": -30
+  },
+  {
+   "id": "F1-viking-21",
+   "stl": "L2-leaves/F1-vikings/F1-viking-a2-v1.stl",
+   "x": 372,
+   "y": 165,
+   "rot_deg": -53
+  },
+  {
+   "id": "F1-viking-22",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b1-v1.stl",
+   "x": 212,
+   "y": 450,
+   "rot_deg": -16
+  },
+  {
+   "id": "F1-viking-23",
+   "stl": "L2-leaves/F1-vikings/F1-viking-b2-v1.stl",
+   "x": 760,
+   "y": 300,
+   "rot_deg": -39
+  },
+  {
+   "id": "K2-sheep-0",
+   "stl": "L2-modelled/K2-sheep-standing.stl",
+   "x": 748,
+   "y": 255,
+   "scale": 0.75,
+   "rot_deg": 0
+  },
+  {
+   "id": "K2-sheep-1",
+   "stl": "L2-modelled/K2-sheep-grazing.stl",
+   "x": 770,
+   "y": 318,
+   "scale": 0.75,
+   "rot_deg": 71
+  },
+  {
+   "id": "K2-sheep-2",
+   "stl": "L2-modelled/K2-sheep-standing.stl",
+   "x": 752,
+   "y": 278,
+   "scale": 0.75,
+   "rot_deg": 142
+  },
+  {
+   "id": "K2-sheep-3",
+   "stl": "L2-modelled/K2-sheep-grazing.stl",
+   "x": 775,
+   "y": 300,
+   "scale": 0.75,
+   "rot_deg": 213
+  },
+  {
+   "id": "K2-sheep-4",
+   "stl": "L2-modelled/K2-sheep-standing.stl",
+   "x": 180,
+   "y": 400,
+   "scale": 0.75,
+   "rot_deg": 284
+  },
+  {
+   "id": "K2-sheep-5",
+   "stl": "L2-modelled/K2-sheep-grazing.stl",
+   "x": 195,
+   "y": 425,
+   "scale": 0.75,
+   "rot_deg": 355
+  },
+  {
+   "id": "K2-sheep-6",
+   "stl": "L2-modelled/K2-sheep-standing.stl",
+   "x": 235,
+   "y": 470,
+   "scale": 0.75,
+   "rot_deg": 66
+  },
+  {
+   "id": "K2-sheep-7",
+   "stl": "L2-modelled/K2-sheep-grazing.stl",
+   "x": 260,
+   "y": 488,
+   "scale": 0.75,
+   "rot_deg": 137
+  },
+  {
+   "id": "K2-sheep-8",
+   "stl": "L2-modelled/K2-sheep-standing.stl",
+   "x": 130,
+   "y": 240,
+   "scale": 0.75,
+   "rot_deg": 208
+  },
+  {
+   "id": "K2-sheep-9",
+   "stl": "L2-modelled/K2-sheep-grazing.stl",
+   "x": 140,
+   "y": 262,
+   "scale": 0.75,
+   "rot_deg": 279
+  },
+  {
+   "id": "D4-night-fury",
+   "stl": "L2-leaves/D4-night-fury/D4-night-fury-v1_scaled.stl",
+   "on": "A1-chain-dome",
+   "dz": -0.5
+  }
+ ],
+ "cameras": {
+  "matched": {
+   "target": [
+    440,
+    310,
+    90
+   ],
+   "az": -28,
+   "el": 28,
+   "dist": 1450,
+   "lens": 50
+  },
+  "top": {
+   "target": [
+    420,
+    300,
+    0
+   ],
+   "az": 0,
+   "el": 89.9,
+   "dist": 1700,
+   "lens": 50,
+   "res": [
+    1200,
+    896
+   ]
+  },
+  "front_right": {
+   "target": [
+    440,
+    300,
+    90
+   ],
+   "az": 30,
+   "el": 25,
+   "dist": 1450,
+   "lens": 50
+  },
+  "close_arena": {
+   "target": [
+    690,
+    300,
+    170
+   ],
+   "az": -28,
+   "el": 24,
+   "dist": 480,
+   "lens": 50
+  },
+  "close_meadow": {
+   "target": [
+    215,
+    440,
+    40
+   ],
+   "az": -28,
+   "el": 30,
+   "dist": 380,
+   "lens": 50
+  },
+  "close_roof": {
+   "target": [
+    235,
+    215,
+    200
+   ],
+   "az": -28,
+   "el": 24,
+   "dist": 520,
+   "lens": 50
+  }
+ }
+}

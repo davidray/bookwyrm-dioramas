@@ -1,0 +1,607 @@
+{
+ "assembly": "assembly-v8",
+ "parts": [
+  {
+   "part": "B1-mead-hall-v1",
+   "file": "B1-mead-hall-v1.stl",
+   "size_mm": [
+    188.0,
+    224.8,
+    150.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "B1-mead-hall"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "B2-dragon-roof-longhouse-v2",
+   "file": "B2-dragon-roof-longhouse-v2.stl",
+   "size_mm": [
+    175.2,
+    141.7,
+    100.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "B2-dragon-roof-longhouse"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "B3-small-longhouse-v1",
+   "file": "B3-small-longhouse-v1.stl",
+   "size_mm": [
+    67.0,
+    70.4,
+    72.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "B3-small-longhouse"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "B4-twin-longhouse-v2",
+   "file": "B4-twin-longhouse-v2.stl",
+   "size_mm": [
+    130.4,
+    115.3,
+    95.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "B4-twin-longhouse"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "B5-turf-longhouse-v1",
+   "file": "B5-turf-longhouse-v1.stl",
+   "size_mm": [
+    133.1,
+    90.3,
+    90.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "B5-turf-longhouse"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "B6-cliff-house-v2",
+   "file": "B6-cliff-house-v2.stl",
+   "size_mm": [
+    73.0,
+    100.2,
+    78.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "B6-cliff-house"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "W1-watchtower-v1",
+   "file": "W1-watchtower-v1.stl",
+   "size_mm": [
+    53.9,
+    52.3,
+    120.8
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "W1-watchtower"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "S1-statue-sword-v1",
+   "file": "S1-statue-sword-v1.stl",
+   "size_mm": [
+    63.0,
+    50.7,
+    135.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "S1-statue-sword"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "S2-statue-shield-v1",
+   "file": "S2-statue-shield-v1.stl",
+   "size_mm": [
+    70.3,
+    58.4,
+    150.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 1,
+   "instances": [
+    "S2-statue-shield"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "V1-longship-v2",
+   "file": "V1-longship-v2.stl",
+   "size_mm": [
+    128.9,
+    82.1,
+    98.9
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 2,
+   "instances": [
+    "V1-longship-a",
+    "V1-longship-b"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "B7-stables",
+   "file": "B7-stables.stl",
+   "size_mm": [
+    142.0,
+    58.6,
+    55.8
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 2326,
+   "count": 1,
+   "instances": [
+    "B7-stables"
+   ]
+  },
+  {
+   "part": "K1-fish-rack",
+   "file": "K1-fish-rack.stl",
+   "size_mm": [
+    34.0,
+    14.0,
+    28.5
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 19802,
+   "count": 3,
+   "instances": [
+    "K1-rack-0",
+    "K1-rack-1",
+    "K1-rack-2"
+   ],
+   "note": "closed (0 open edges); a few pinched non-manifold edges from decimation; Bambu Studio's auto-repair fixes them"
+  },
+  {
+   "part": "K1-barrel",
+   "file": "K1-barrel.stl",
+   "size_mm": [
+    12.0,
+    12.0,
+    13.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 672,
+   "count": 5,
+   "instances": [
+    "K1-barrel-0",
+    "K1-barrel-1",
+    "K1-barrel-2",
+    "K1-barrel-3",
+    "K1-barrel-4"
+   ]
+  },
+  {
+   "part": "G1-ground-tile-B1",
+   "file": "G1-ground-tile-B1.stl",
+   "size_mm": [
+    188.4,
+    175.2,
+    33.5
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 279814,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-B2",
+   "file": "G1-ground-tile-B2.stl",
+   "size_mm": [
+    210.0,
+    181.8,
+    162.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 420860,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-B3",
+   "file": "G1-ground-tile-B3.stl",
+   "size_mm": [
+    210.0,
+    184.8,
+    162.1
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 426068,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-B4",
+   "file": "G1-ground-tile-B4.stl",
+   "size_mm": [
+    186.0,
+    177.0,
+    250.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 284822,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-F1",
+   "file": "G1-ground-tile-F1.stl",
+   "size_mm": [
+    195.6,
+    173.4,
+    97.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 297362,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-F2",
+   "file": "G1-ground-tile-F2.stl",
+   "size_mm": [
+    210.0,
+    178.2,
+    82.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 411368,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-F3",
+   "file": "G1-ground-tile-F3.stl",
+   "size_mm": [
+    210.0,
+    180.0,
+    94.3
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 414236,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-F4",
+   "file": "G1-ground-tile-F4.stl",
+   "size_mm": [
+    193.8,
+    177.0,
+    99.5
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 301970,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-M1",
+   "file": "G1-ground-tile-M1.stl",
+   "size_mm": [
+    195.6,
+    199.8,
+    82.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 422700,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-M2",
+   "file": "G1-ground-tile-M2.stl",
+   "size_mm": [
+    210.0,
+    199.8,
+    130.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 465176,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-M3",
+   "file": "G1-ground-tile-M3.stl",
+   "size_mm": [
+    210.0,
+    199.8,
+    168.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 465176,
+   "count": 1
+  },
+  {
+   "part": "G1-ground-tile-M4",
+   "file": "G1-ground-tile-M4.stl",
+   "size_mm": [
+    193.8,
+    199.8,
+    162.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 415944,
+   "count": 1
+  },
+  {
+   "part": "G1-tile-clip",
+   "file": "G1-tile-clip.stl",
+   "size_mm": [
+    7.6,
+    19.6,
+    2.8
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "count": 34
+  },
+  {
+   "part": "D2-blue-dragon-v3",
+   "file": "D2-blue-dragon-v3.stl",
+   "size_mm": [
+    130.7,
+    91.7,
+    45.5
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 565674,
+   "count": 1,
+   "instances": [
+    "D2-blue-dragon"
+   ]
+  },
+  {
+   "part": "D3-brown-dragon-v3",
+   "file": "D3-brown-dragon-v3.stl",
+   "size_mm": [
+    76.4,
+    76.6,
+    55.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 1059190,
+   "count": 1,
+   "instances": [
+    "D3-brown-dragon"
+   ]
+  },
+  {
+   "part": "A1-chain-dome",
+   "file": "A1-chain-dome.stl",
+   "size_mm": [
+    146.0,
+    146.0,
+    76.5
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 46966,
+   "count": 1,
+   "instances": [
+    "A1-chain-dome"
+   ]
+  },
+  {
+   "part": "F1-viking-a1-v1",
+   "file": "F1-viking-a1-v1.stl",
+   "size_mm": [
+    15.4,
+    14.2,
+    25.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 6,
+   "instances": [
+    "F1-viking-0",
+    "F1-viking-4",
+    "F1-viking-8",
+    "F1-viking-12",
+    "F1-viking-16",
+    "F1-viking-20"
+   ]
+  },
+  {
+   "part": "F1-viking-a2-v1",
+   "file": "F1-viking-a2-v1.stl",
+   "size_mm": [
+    15.3,
+    14.4,
+    24.2
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 6,
+   "instances": [
+    "F1-viking-1",
+    "F1-viking-5",
+    "F1-viking-9",
+    "F1-viking-13",
+    "F1-viking-17",
+    "F1-viking-21"
+   ]
+  },
+  {
+   "part": "F1-viking-b1-v1",
+   "file": "F1-viking-b1-v1.stl",
+   "size_mm": [
+    17.1,
+    16.8,
+    25.0
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 6,
+   "instances": [
+    "F1-viking-2",
+    "F1-viking-6",
+    "F1-viking-10",
+    "F1-viking-14",
+    "F1-viking-18",
+    "F1-viking-22"
+   ]
+  },
+  {
+   "part": "F1-viking-b2-v1",
+   "file": "F1-viking-b2-v1.stl",
+   "size_mm": [
+    16.8,
+    17.0,
+    24.6
+   ],
+   "fits_bed": true,
+   "watertight": false,
+   "faces": 800000,
+   "count": 6,
+   "instances": [
+    "F1-viking-3",
+    "F1-viking-7",
+    "F1-viking-11",
+    "F1-viking-15",
+    "F1-viking-19",
+    "F1-viking-23"
+   ]
+  },
+  {
+   "part": "K2-sheep-standing",
+   "file": "K2-sheep-standing.stl",
+   "size_mm": [
+    10.0,
+    18.0,
+    12.8
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 3970,
+   "count": 5,
+   "instances": [
+    "K2-sheep-0",
+    "K2-sheep-2",
+    "K2-sheep-4",
+    "K2-sheep-6",
+    "K2-sheep-8"
+   ]
+  },
+  {
+   "part": "K2-sheep-grazing",
+   "file": "K2-sheep-grazing.stl",
+   "size_mm": [
+    10.4,
+    17.9,
+    12.6
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 4022,
+   "count": 5,
+   "instances": [
+    "K2-sheep-1",
+    "K2-sheep-3",
+    "K2-sheep-5",
+    "K2-sheep-7",
+    "K2-sheep-9"
+   ]
+  },
+  {
+   "part": "D4-night-fury-v1",
+   "file": "D4-night-fury-v1.stl",
+   "size_mm": [
+    58.1,
+    47.4,
+    35.0
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 934856,
+   "count": 1,
+   "instances": [
+    "D4-night-fury"
+   ],
+   "note": "not decimated, to stay watertight"
+  },
+  {
+   "part": "D1-nightmare-v1",
+   "file": "D1-nightmare-v1.stl",
+   "size_mm": [
+    148.4,
+    113.3,
+    86.2
+   ],
+   "fits_bed": true,
+   "watertight": true,
+   "faces": 818818,
+   "count": 1,
+   "instances": [
+    "D1-nightmare"
+   ],
+   "note": "Monstrous Nightmare; glue its beam along the B2 roof ridge"
+  }
+ ],
+ "print_dir": "print/",
+ "mac_folder": "~/code/bookwyrm-rpg-lantern-art/berk-diorama/print-v8/"
+}

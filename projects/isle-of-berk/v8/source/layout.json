@@ -1,0 +1,487 @@
+{
+ "_note": "Plan view of concept A (summer dragon village) in mm (base 840 x 600 after blockout v1 was too crowded on 720 x 480). x across the front from the left, y from the front edge to the back, z up from sea level. yaw: degrees the element's front is turned from facing the front edge (-y), positive = turned toward the right (+x). Forced perspective: Viking adult ~25 mm.",
+ "base": {
+  "w": 840,
+  "d": 600,
+  "plinth_below_sea": 12,
+  "tiles": [
+   4,
+   3
+  ],
+  "_tile_mm": "210 x 200",
+  "shape": "superellipse n=4 inset 20 mm"
+ },
+ "terraces": [
+  {
+   "id": "harbour",
+   "z": 8,
+   "cx": 478,
+   "cy": 165,
+   "rx": 198,
+   "ry": 28
+  },
+  {
+   "id": "lower-village",
+   "z": 70,
+   "cx": 262,
+   "cy": 238,
+   "rx": 158,
+   "ry": 100
+  },
+  {
+   "id": "mid-village",
+   "z": 95,
+   "cx": 405,
+   "cy": 319,
+   "rx": 165,
+   "ry": 94
+  },
+  {
+   "id": "cliff-ledge",
+   "z": 70,
+   "cx": 690,
+   "cy": 190,
+   "rx": 64,
+   "ry": 50
+  },
+  {
+   "id": "arena-plateau",
+   "z": 112,
+   "cx": 665,
+   "cy": 330,
+   "rx": 118,
+   "ry": 112
+  },
+  {
+   "id": "hall-terrace",
+   "z": 150,
+   "cx": 531,
+   "cy": 450,
+   "rx": 134,
+   "ry": 80
+  },
+  {
+   "id": "peak",
+   "z": 238,
+   "cx": 700,
+   "cy": 495,
+   "rx": 88,
+   "ry": 60
+  },
+  {
+   "id": "tower-ledge",
+   "z": 228,
+   "cx": 758,
+   "cy": 475,
+   "rx": 35,
+   "ry": 35
+  }
+ ],
+ "stair": {
+  "from": [
+   467,
+   190,
+   8
+  ],
+  "via": [
+   [
+    490,
+    238,
+    60
+   ],
+   [
+    519,
+    338,
+    110
+   ]
+  ],
+  "to": [
+   531,
+   380,
+   150
+  ],
+  "width": 36
+ },
+ "elements": [
+  {
+   "id": "B1-mead-hall",
+   "x": 531,
+   "y": 455,
+   "z": 150,
+   "w": 140,
+   "d": 140,
+   "h": 150,
+   "yaw": -15,
+   "note": "gable end with the great carved door faces down the stair"
+  },
+  {
+   "id": "B2-dragon-roof-longhouse",
+   "x": 233,
+   "y": 219,
+   "z": 70,
+   "w": 150,
+   "d": 105,
+   "h": 100,
+   "yaw": -35,
+   "note": "long side and porch face front-left; black dragon on the ridge"
+  },
+  {
+   "id": "B3-small-longhouse",
+   "x": 285,
+   "y": 300,
+   "z": 95,
+   "w": 70,
+   "d": 85,
+   "h": 72,
+   "yaw": -25
+  },
+  {
+   "id": "B4-twin-longhouse",
+   "x": 418,
+   "y": 395,
+   "z": 95,
+   "w": 85,
+   "d": 90,
+   "h": 95,
+   "yaw": -10
+  },
+  {
+   "id": "B5-turf-longhouse",
+   "x": 420,
+   "y": 281,
+   "z": 95,
+   "w": 100,
+   "d": 95,
+   "h": 90,
+   "yaw": -5,
+   "note": "gable faces the front"
+  },
+  {
+   "id": "B6-cliff-house",
+   "x": 690,
+   "y": 190,
+   "z": 70,
+   "w": 70,
+   "d": 75,
+   "h": 78,
+   "yaw": -30
+  },
+  {
+   "id": "B7-stables",
+   "x": 728,
+   "y": 408,
+   "z": 112,
+   "w": 130,
+   "d": 65,
+   "h": 55,
+   "yaw": -5,
+   "note": "two open sheds behind the arena"
+  },
+  {
+   "id": "A1-chain-arena",
+   "x": 650,
+   "y": 285,
+   "z": 112,
+   "w": 150,
+   "d": 150,
+   "h": 70,
+   "yaw": 0,
+   "note": "sunk ring at the cliff edge, chain dome"
+  },
+  {
+   "id": "W1-watchtower",
+   "x": 758,
+   "y": 481,
+   "z": 228,
+   "w": 50,
+   "d": 50,
+   "h": 105,
+   "yaw": 0
+  },
+  {
+   "id": "S1-statue-sword",
+   "x": 268,
+   "y": 95,
+   "z": 0,
+   "w": 60,
+   "d": 55,
+   "h": 135,
+   "yaw": -10,
+   "note": "on a rock in the sea, faces out to sea (front)"
+  },
+  {
+   "id": "S2-statue-shield",
+   "x": 636,
+   "y": 50,
+   "z": 0,
+   "w": 70,
+   "d": 60,
+   "h": 150,
+   "yaw": -10,
+   "note": "on a plinth at the front right of the harbour mouth, faces out to sea"
+  },
+  {
+   "id": "V1-longship-a",
+   "x": 388,
+   "y": 80,
+   "z": 0,
+   "w": 40,
+   "d": 115,
+   "h": 70,
+   "yaw": -20,
+   "note": "moored at the dock, bow to the sea"
+  },
+  {
+   "id": "V1-longship-b",
+   "x": 503,
+   "y": 78,
+   "z": 0,
+   "w": 40,
+   "d": 115,
+   "h": 70,
+   "yaw": -25,
+   "note": "same design as V1-longship-a, placed twice"
+  },
+  {
+   "id": "K1-dock-racks",
+   "x": 480,
+   "y": 165,
+   "z": 8,
+   "w": 260,
+   "d": 50,
+   "h": 40,
+   "yaw": 0,
+   "note": "plank piers, fish drying racks, barrels; modelled"
+  },
+  {
+   "id": "D1-black-dragon",
+   "x": 233,
+   "y": 225,
+   "z": 170,
+   "w": 130,
+   "d": 60,
+   "h": 45,
+   "yaw": -35,
+   "note": "perched on B2's ridge, head toward the right"
+  },
+  {
+   "id": "D2-blue-dragon",
+   "x": 440,
+   "y": 412,
+   "z": 340,
+   "w": 115,
+   "d": 50,
+   "h": 36,
+   "yaw": 20,
+   "note": "flying, on a clear rod from the hall terrace"
+  },
+  {
+   "id": "D3-brown-dragon",
+   "x": 350,
+   "y": 375,
+   "z": 280,
+   "w": 80,
+   "d": 40,
+   "h": 30,
+   "yaw": -30,
+   "note": "flying, on a clear rod from the mid village"
+  },
+  {
+   "id": "F1-vikings",
+   "x": 467,
+   "y": 250,
+   "z": 60,
+   "w": 25,
+   "d": 25,
+   "h": 25,
+   "yaw": 0,
+   "note": "about 8 single figures spread on paths and the stair",
+   "instances": [
+    [
+     420,
+     150,
+     8
+    ],
+    [
+     575,
+     155,
+     8
+    ],
+    [
+     474,
+     205,
+     24
+    ],
+    [
+     500,
+     280,
+     80
+    ],
+    [
+     520,
+     360,
+     135
+    ],
+    [
+     505,
+     378,
+     150
+    ],
+    [
+     340,
+     200,
+     70
+    ],
+    [
+     200,
+     165,
+     70
+    ],
+    [
+     760,
+     345,
+     112
+    ]
+   ]
+  }
+ ],
+ "relations": [
+  [
+   "B1-mead-hall",
+   "at-top-of",
+   "stair"
+  ],
+  [
+   "B1-mead-hall",
+   "door-faces",
+   "stair"
+  ],
+  [
+   "stair",
+   "runs-from",
+   "K1-dock-racks"
+  ],
+  [
+   "B1-mead-hall",
+   "highest-building",
+   "scene"
+  ],
+  [
+   "W1-watchtower",
+   "on",
+   "peak-right-of-B1"
+  ],
+  [
+   "W1-watchtower",
+   "highest-fixed-point",
+   "scene (flying dragons on rods excluded)"
+  ],
+  [
+   "A1-chain-arena",
+   "right-of",
+   "stair"
+  ],
+  [
+   "A1-chain-arena",
+   "on-edge-of",
+   "cliff"
+  ],
+  [
+   "B7-stables",
+   "behind",
+   "A1-chain-arena"
+  ],
+  [
+   "B2-dragon-roof-longhouse",
+   "front-left-of",
+   "village"
+  ],
+  [
+   "D1-black-dragon",
+   "perched-on",
+   "B2-dragon-roof-longhouse"
+  ],
+  [
+   "village-houses",
+   "left-of",
+   "stair"
+  ],
+  [
+   "B6-cliff-house",
+   "below-front-of",
+   "A1-chain-arena"
+  ],
+  [
+   "S1-statue-sword",
+   "flanks-left",
+   "harbour-mouth"
+  ],
+  [
+   "S2-statue-shield",
+   "flanks-right",
+   "harbour-mouth"
+  ],
+  [
+   "S1-statue-sword",
+   "faces",
+   "sea"
+  ],
+  [
+   "S2-statue-shield",
+   "faces",
+   "sea"
+  ],
+  [
+   "V1-longship-a",
+   "moored-at",
+   "K1-dock-racks"
+  ],
+  [
+   "V1-longship-b",
+   "moored-at",
+   "K1-dock-racks"
+  ],
+  [
+   "longships",
+   "between",
+   "statues"
+  ],
+  [
+   "D2-blue-dragon",
+   "flies-above",
+   "B1-mead-hall-left"
+  ],
+  [
+   "island",
+   "rises-to",
+   "back-right"
+  ],
+  [
+   "sea",
+   "surrounds",
+   "island"
+  ]
+ ],
+ "piers": [
+  {
+   "x": 330,
+   "y0": 40,
+   "y1": 140,
+   "w": 22
+  },
+  {
+   "x": 445,
+   "y0": 30,
+   "y1": 140,
+   "w": 22
+  },
+  {
+   "x": 560,
+   "y0": 40,
+   "y1": 140,
+   "w": 22
+  }
+ ],
+ "terrace_edge": "cliff: vertical faces, skirt <= 10 mm",
+ "_height_note": "Ground tiles print upright: plinth 12 + peak 238 = 250 mm, under the 256 mm bed height."
+}
