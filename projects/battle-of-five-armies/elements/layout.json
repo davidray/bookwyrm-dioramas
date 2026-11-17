@@ -1,0 +1,402 @@
+{
+ "_note": "mm, origin = centre of the 580 x 580 base top at z=0, +y = back (mountain), -y = front, +x = right. Tiles: TL x[-290,0] y[0,290], TR x[0,290] y[0,290], BL x[-290,0] y[-290,0], BR x[0,290] y[-290,0]. Boxes are reserves: [cx, cy, w, d, h, yaw_deg], yaw 0 = facing -y (toward the viewer).",
+ "base": {
+  "w": 580,
+  "d": 580,
+  "slab": 20
+ },
+ "terrain": [
+  {
+   "id": "M1-mountain",
+   "box": [
+    0,
+    200,
+    570,
+    180,
+    260,
+    0
+   ]
+  },
+  {
+   "id": "G1-gate-statues",
+   "box": [
+    10,
+    115,
+    200,
+    60,
+    180,
+    0
+   ]
+  },
+  {
+   "id": "R1-spur-left",
+   "box": [
+    -175,
+    10,
+    230,
+    260,
+    75,
+    0
+   ]
+  },
+  {
+   "id": "R1-spur-right",
+   "box": [
+    150,
+    45,
+    180,
+    150,
+    50,
+    0
+   ],
+   "mirror": true
+  },
+  {
+   "id": "H1-ruined-hamlet",
+   "box": [
+    205,
+    -150,
+    160,
+    150,
+    120,
+    0
+   ]
+  },
+  {
+   "id": "shore-cut",
+   "poly": [
+    [
+     180,
+     -290
+    ],
+    [
+     290,
+     -290
+    ],
+    [
+     290,
+     -60
+    ],
+    [
+     260,
+     -120
+    ],
+    [
+     210,
+     -230
+    ]
+   ]
+  }
+ ],
+ "valley_rise": {
+  "from_y": -290,
+  "to_y": 90,
+  "z0": 0,
+  "z1": 30
+ },
+ "regiments": [
+  {
+   "el": "A1-dwarf-shieldwall",
+   "at": [
+    10,
+    70,
+    0
+   ]
+  },
+  {
+   "el": "A1-dwarf-shieldwall",
+   "at": [
+    -55,
+    45,
+    15
+   ]
+  },
+  {
+   "el": "A1-dwarf-shieldwall",
+   "at": [
+    75,
+    45,
+    -15
+   ]
+  },
+  {
+   "el": "A2-dwarf-charge",
+   "at": [
+    -20,
+    0,
+    10
+   ]
+  },
+  {
+   "el": "A2-dwarf-charge",
+   "at": [
+    45,
+    -5,
+    -10
+   ]
+  },
+  {
+   "el": "A3-elf-archers",
+   "at": [
+    -200,
+    90,
+    -35
+   ]
+  },
+  {
+   "el": "A3-elf-archers",
+   "at": [
+    -130,
+    60,
+    -30
+   ]
+  },
+  {
+   "el": "A4-elf-spears",
+   "at": [
+    -210,
+    -10,
+    -25
+   ]
+  },
+  {
+   "el": "A4-elf-spears",
+   "at": [
+    -140,
+    -60,
+    -20
+   ]
+  },
+  {
+   "el": "A5-men-spears",
+   "at": [
+    110,
+    70,
+    30
+   ]
+  },
+  {
+   "el": "A5-men-spears",
+   "at": [
+    185,
+    40,
+    25
+   ]
+  },
+  {
+   "el": "A6-men-swords",
+   "at": [
+    120,
+    5,
+    20
+   ]
+  },
+  {
+   "el": "A6-men-swords",
+   "at": [
+    215,
+    95,
+    30
+   ]
+  },
+  {
+   "el": "A7-goblin-horde-a",
+   "at": [
+    -70,
+    -80,
+    175
+   ]
+  },
+  {
+   "el": "A7-goblin-horde-a",
+   "at": [
+    30,
+    -100,
+    185
+   ]
+  },
+  {
+   "el": "A7-goblin-horde-a",
+   "at": [
+    -40,
+    -200,
+    180
+   ]
+  },
+  {
+   "el": "A8-goblin-horde-b",
+   "at": [
+    100,
+    -90,
+    195
+   ]
+  },
+  {
+   "el": "A8-goblin-horde-b",
+   "at": [
+    -130,
+    -170,
+    170
+   ]
+  },
+  {
+   "el": "A8-goblin-horde-b",
+   "at": [
+    60,
+    -200,
+    185
+   ]
+  },
+  {
+   "el": "A9-goblin-horde-c",
+   "at": [
+    -20,
+    -140,
+    180
+   ]
+  },
+  {
+   "el": "A9-goblin-horde-c",
+   "at": [
+    120,
+    -240,
+    200
+   ]
+  }
+ ],
+ "regiment_box": {
+  "A": [
+   70,
+   45,
+   18
+  ],
+  "goblin": [
+   80,
+   50,
+   16
+  ]
+ },
+ "eagles": [
+  {
+   "el": "E1-eagle-dive",
+   "at": [
+    -150,
+    30,
+    210,
+    160
+   ],
+   "rod_to": [
+    -150,
+    30
+   ]
+  },
+  {
+   "el": "E1-eagle-dive",
+   "at": [
+    -40,
+    60,
+    235,
+    200
+   ],
+   "rod_to": [
+    -40,
+    150
+   ]
+  },
+  {
+   "el": "E2-eagle-strike",
+   "at": [
+    80,
+    -60,
+    170,
+    200
+   ],
+   "rod_to": [
+    140,
+    20
+   ]
+  },
+  {
+   "el": "E2-eagle-strike",
+   "at": [
+    -90,
+    -110,
+    150,
+    160
+   ],
+   "rod_to": [
+    -175,
+    -60
+   ]
+  }
+ ],
+ "eagle_box": [
+  130,
+  90,
+  45
+ ],
+ "props": [
+  {
+   "el": "T1-pine-cluster",
+   "at": [
+    -265,
+    120
+   ]
+  },
+  {
+   "el": "T1-pine-cluster",
+   "at": [
+    -270,
+    -60
+   ]
+  },
+  {
+   "el": "T1-pine-cluster",
+   "at": [
+    -90,
+    120
+   ]
+  },
+  {
+   "el": "T1-pine-cluster",
+   "at": [
+    240,
+    120
+   ]
+  },
+  {
+   "el": "T1-pine-cluster",
+   "at": [
+    95,
+    115
+   ]
+  },
+  {
+   "el": "T1-pine-cluster",
+   "at": [
+    -250,
+    -230
+   ]
+  },
+  {
+   "el": "X1-smoke-plume",
+   "at": [
+    250,
+    -100
+   ]
+  }
+ ],
+ "camera": {
+  "loc": [
+   -200,
+   -1250,
+   950
+  ],
+  "target": [
+   0,
+   20,
+   60
+  ],
+  "lens": 40
+ }
+}
