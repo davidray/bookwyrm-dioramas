@@ -11,7 +11,7 @@ A = {"ground": {"w": 580, "slab": 12, "rise_from": -290, "rise_to": 120, "z0": 0
   {"el": "R1-rock-spur", "at": [-180, 5, 0], "sc": [1.8, 1.8, 1.9], "z": 0},
   {"el": "R1-rock-spur", "at": [168, 25, 0], "sc": [1.3, 1.2, 1.0], "z": 0, "mirror": True},
   {"el": "H1-ruined-hamlet", "at": [200, -175, -20], "sc": [0.75, 0.75, 0.75], "z": 0}],
- "placed": [], "eagles": [
+ "patches": [], "placed": [], "eagles": [
   {"el": "E1-eagle-dive", "at": [-175, 150, 250, 150], "s": 1.25, "rod_to": [-150, 190]},
   {"el": "E2-eagle-strike", "at": [175, 150, 245, 210], "s": 1.25, "rod_to": [150, 190]},
   {"el": "E1-eagle-dive", "at": [-135, -150, 150, 160], "s": 1.15, "rod_to": [-135, -150]},
@@ -21,6 +21,13 @@ A = {"ground": {"w": 580, "slab": 12, "rise_from": -290, "rise_to": 120, "z0": 0
   {"name": "top", "loc": [0, -1, 1600], "target": [0, 0, 0], "lens": 32},
   {"name": "close_valley", "loc": [-60, -520, 260], "target": [20, -60, 30], "lens": 40},
   {"name": "side_left", "loc": [-900, -350, 450], "target": [0, 20, 60], "lens": 45}]}
+# battlefield floor patches (K1, ~140 mm square) tiled over the open ground, rotated and mirrored
+RP = random.Random(11)  # own stream, so regiment placement stays as reviewed in v3
+for j, y in enumerate((-215, -85, 40)):
+    for i, x in enumerate((-205, -70, 65, 200)):
+        if x > 130 and y < -60:
+            continue  # the hamlet sits there
+        A["patches"].append({"el": "K1-battlefield-floor", "at": [x + RP.uniform(-8, 8), y + RP.uniform(-8, 8), RP.choice((0, 90, 180, 270)) + RP.uniform(-6, 6)], "mirror": (i + j) % 2 == 1})
 zones = [  # (elements, max n, xrange, yrange, yaw, spacing at 15 mm): packed until full
  (["A1-dwarf-shieldwall", "A2-dwarf-charge"], 999, (-75, 95), (-25, 60), 0, 23),
  (["A3-elf-archers", "A4-elf-spears"], 999, (-245, -115), (-85, 90), 60, 24),
