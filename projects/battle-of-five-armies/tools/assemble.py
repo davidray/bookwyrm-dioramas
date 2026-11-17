@@ -20,7 +20,7 @@ def leaf(el):
     if el not in _cache:
         bpy.ops.wm.stl_import(filepath=os.path.join(DEC, el + ".stl"))
         o = bpy.context.selected_objects[0]; o.data.materials.append(clay)
-        _cache[el] = o.data; bpy.data.objects.remove(o)
+        o.data.name = el; _cache[el] = o.data; bpy.data.objects.remove(o)
     o = bpy.data.objects.new(el, _cache[el]); sc.collection.objects.link(o); return o
 
 def place(el, x, y, z, yaw=0, s=1.0, sx=None):
@@ -65,11 +65,21 @@ for p in A["placed"]:
 
 # eagles on 3 mm rods (structure)
 for e in A["eagles"]:
-    x, y, z, yaw = e["at"]; place(e["el"], x, y, z, yaw, e["s"])
-    rx, ry = e["rod_to"]; a = Vector((rx, ry, drop(rx, ry))); b = Vector((x, y, z + 8)); v = b - a
+    x, y, z, yaw = e["at"]; rx, ry = e["rod_to"]
+    a = Vector((rx, ry, drop(rx, ry)))  # before the eagle exists, so the ray finds the ground
+    place(e["el"], x, y, z, yaw, e["s"]); b = Vector((x, y, z + 8)); v = b - a
     bpy.ops.mesh.primitive_cylinder_add(radius=1.5, depth=v.length, location=(a + b) / 2)
     c = bpy.context.object; c.rotation_mode = "QUATERNION"; c.rotation_quaternion = v.to_track_quat("Z", "Y"); c.data.materials.append(clay)
 
+# world placements for the print export (kind from the element id prefix)
+PL = []
+for o in sc.objects:
+    if o.type == "MESH":
+        PL.append({"name": o.name, "el": o.data.name if o.data.name in _cache else o.name,
+                   "matrix": [list(r) for r in o.matrix_world]})
+json.dump(PL, open(os.path.join(OUT, "placements.json"), "w"))
+if os.environ.get("NORENDER"):
+    sys.exit(0)
 sc.render.engine = "CYCLES"; sc.cycles.samples = 24; sc.cycles.device = "CPU"
 sc.render.resolution_x, sc.render.resolution_y = 1536, 1024
 w = bpy.data.worlds.new("w"); sc.world = w; w.use_nodes = True; w.node_tree.nodes["Background"].inputs[0].default_value = (.35, .36, .38, 1)
