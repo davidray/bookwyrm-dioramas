@@ -50,6 +50,10 @@ me = bpy.data.meshes.new("ground"); bm.to_mesh(me)
 g = bpy.data.objects.new("ground", me); sc.collection.objects.link(g); g.data.materials.append(clay)
 sl = g.modifiers.new("slab", "SOLIDIFY"); sl.thickness = G["slab"]; sl.offset = -1
 
+for t in A.get("patches", []):
+    x, y, yaw = t["at"]; o = place(t["el"], x, y, drop(x, y) - 7.5, yaw)  # surface flush with the ground
+    sx, sy, sz = t.get("sc", (1.4, 1.4, 0.85)); o.scale = (-sx if t.get("mirror") else sx, sy, sz)
+
 for t in A["terrain"]:
     x, y, yaw = t["at"]; z = t.get("z", drop(x, y) - t.get("sink", 0))
     o = place(t["el"], x, y, z, yaw)
