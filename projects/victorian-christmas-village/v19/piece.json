@@ -1,7 +1,7 @@
 {
   "piece_json": 1,
   "slug": "victorian-christmas-village",
-  "version": "v18",
+  "version": "v19",
   "title": "Victorian Christmas village",
   "kind": "diorama",
   "status": "prototype",
@@ -10,7 +10,7 @@
     "ip": "none",
     "licence": "all-rights-reserved"
   },
-  "description": "A snowy Victorian Christmas village on an 840 x 420 mm base of 8 magnet-jointed tiles: a 263 mm one-piece church with its bell tower standing in front of the nave, hollowed for a puck light and with a hollow tower lit by a battery tea light through its lancet window and belfry louvres, plus an inn, a bakery with stone gables at both ends, a timber cottage with a decorated front porch, another cottage and a toy shop for FDM, with glue-on resin frames for the toy shop bow windows, and a 160 mm tree, lamps, firs and figures for resin. Built with the scene workflow using Meshy meshes (1041 credits). The base tiles have been printed.",
+  "description": "A snowy Victorian Christmas village on an 840 x 420 mm base of 8 magnet-jointed tiles: a 263 mm one-piece church with its bell tower standing in front of the nave, hollowed for a puck light and with a hollow tower lit by a battery tea light through its lancet window and belfry louvres, plus an inn, a bakery with stone gables at both ends, a timber cottage with a decorated front porch, another cottage and a toy shop for FDM, with glue-on resin frames for the toy shop bow windows, and a 160 mm tree, lamps, firs and figures for resin. Built with the scene workflow using Meshy meshes (1135 credits). The base tiles have been printed.",
   "themes": [
     "victorian",
     "villages"
@@ -43,8 +43,8 @@
       "material": "White PLA"
     },
     {
-      "name": "Buildings: one-piece church with lit tower, B3 toy shop body and roof, bakery (v18, stone gables at both ends), inn, B1 cottage and B6 cottage (v18, open decorated porch)",
-      "file": "print/christmas-village-v18-buildings.3mf",
+      "name": "Buildings: one-piece church with lit tower, B3 toy shop body and roof, bakery (v19, Meshy, stone gables at both ends), inn, B1 cottage and B6 cottage (v19, Meshy, open decorated porch)",
+      "file": "print/christmas-village-v19-buildings.3mf",
       "printer": "Bambu Lab H2D class (FDM, over 256 mm build height for the church)",
       "material": "White PLA"
     },

@@ -103,8 +103,8 @@
  },
  {
   "id": "B4-bakery",
-  "stl": "print/christmas-village-v18-buildings.3mf (object 06-B4-bakery-v18-stone-gables)",
-  "scale": 1.15,
+  "stl": "print/christmas-village-v19-buildings.3mf (object 06-B4-bakery-v19-gables)",
+  "scale": 1.0,
   "rot_deg": -25,
   "location_mm": [
    472.5,
@@ -113,17 +113,17 @@
   ],
   "bounds_mm": [
    [
-    405.7,
-    253.0,
+    407.5,
+    252.3,
     26.5
    ],
    [
-    538.7,
-    383.6,
-    227.8
+    539.5,
+    382.8,
+    225.3
    ]
   ],
-  "note": "v17: hipped end rebuilt as a gable, mirrored chimney removed; v18: snowy gable faces cut back to stone (copied from the wall below), roof verge overhang with bargeboards at both ends, chimney breast kept at the chimney end"
+  "note": "v19: regenerated with Meshy (art, sculpt image, image-to-3D) from the original bakery art: stone gables at both ends with green scalloped bargeboards and a finial, scalloped eaves trim, one brick chimney; scaled 105x from the Meshy mesh to the old footprint and height, base trimmed flat"
  },
  {
   "id": "B5-inn",
@@ -173,8 +173,8 @@
  },
  {
   "id": "B6-cottage",
-  "stl": "print/christmas-village-v18-buildings.3mf (object 09-B6-cottage-v18-porch)",
-  "scale": 1.4,
+  "stl": "print/christmas-village-v19-buildings.3mf (object 09-B6-cottage-v19-porch)",
+  "scale": 1.0,
   "rot_deg": -95,
   "location_mm": [
    684.6,
@@ -183,17 +183,17 @@
   ],
   "bounds_mm": [
    [
-    640.8,
-    24.9,
+    635.3,
+    26.9,
     26.5
    ],
    [
-    739.2,
-    159.1,
-    160.2
+    735.0,
+    157.1,
+    146.0
    ]
   ],
-  "note": "v17: lean-to opened into a porch with a door; v18: porch ends opened with corner posts, irregular snow on the porch roof, half-timbering and two lit mullioned windows on the back wall, wreath on the door, garland swags with bows, two potted Christmas trees"
+  "note": "v19: regenerated with Meshy (art, sculpt image, image-to-3D) from the original cottage art: open-ended front porch with posts, plank deck and step, door with wreath, two mullioned windows in a half-timbered back wall, garland swags with bows, two potted trees, organic snow on both roofs; stone chimney now on the right gable end; scaled 68x to the old footprint, base trimmed flat"
  },
  {
   "id": "T1-tree",

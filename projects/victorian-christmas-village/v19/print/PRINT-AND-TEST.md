@@ -1,17 +1,17 @@
-# Christmas village, print set v18 (David's review of v17)
+# Christmas village, print set v19 (Meshy bakery and cottage)
 
-v18 is v17 with David's review fixes to the bakery and the timber cottage. The toy shop window frames, church, tiles, props, figures and magnets are unchanged.
+v19 is v17 with the bakery and timber cottage regenerated with Meshy. The toy shop window frames, church, tiles, props, figures and magnets are unchanged.
 
-- **Bakery (B4):** both gable faces were smooth snow, which can't cling to a vertical wall. They're now stone, copied from the bakery's own walls, set back under a roof overhang with a plain bargeboard along each rake. At the chimney end, the brick chimney breast stands proud of the stone.
-- **Timber cottage (B6) porch:** both ends are open, with a 4 mm corner post at each front corner. The porch roof has an irregular snow cover with a draped front lip and a few icicles, replacing the straight, evenly spaced seams. The back wall has half-timbering (plates, studs, rails and braces) and two mullioned windows, cut through so they glow. It's decorated with a wreath on the door, garland swags with bows along the front beam, and a small potted Christmas tree each side of the door.
+- **Bakery (B4):** stone gables at both ends with green scalloped bargeboards and finials, scalloped eaves trim, one brick chimney. 114 x 107 x 199 mm, solid, flat base.
+- **Timber cottage (B6):** open-ended front porch with posts, deck, step, a door with a wreath, two mullioned windows, garland swags with bows and two potted trees, organic snow on both roofs. 129 x 94 x 120 mm, solid, flat base.
 
 This folder holds four 3MFs, split by printer:
 - `christmas-village-v12-base-tiles.3mf`: the 8 tiles with magnet pockets (FDM), unchanged.
-- `christmas-village-v18-buildings.3mf`: 7 objects (FDM, white PLA): the v16 church, the B3 toy shop body and roof, the v18 bakery, the inn, the B1 cottage and the v18 B6 cottage. Only the bakery (`06-B4-bakery-v18-stone-gables`) and cottage (`09-B6-cottage-v18-porch`) differ from v16. The porch garland hangs under the porch roof, so slice the cottage with supports under the porch ceiling and garland. The church needs more than 256 mm of build height and supports touching the build plate, as in v16.
+- `christmas-village-v19-buildings.3mf`: 7 objects (FDM, white PLA): the v16 church, the B3 toy shop body and roof, the v19 bakery, the inn, the B1 cottage and the v19 B6 cottage. Only the bakery (`06-B4-bakery-v19-gables`) and cottage (`09-B6-cottage-v19-porch`) differ from v16. Slice the cottage with supports under the porch roof, garland and icicles. The church needs more than 256 mm of build height and supports touching the build plate, as in v16.
 - `christmas-village-v17-window-frames.3mf` (unchanged from v17): the two toy shop bow window frames (resin). Print them upright on their bottom edge with light supports, or tilt them about 30° back. If a frame is tight in the opening, sand its ends; it should sit on the sill and touch the underside of the head.
 - `christmas-village-v12-props-figures.3mf`: 10 objects, 12 pieces, resin, unchanged.
 
-Sha-256: tiles `7f822c13…`, buildings `c2979f05…145e75`, window frames `68bc404c…7834`, props/figures `310a1df0…3ae5d`.
+Sha-256: tiles `7f822c13…`, buildings `b5b0718c…771984a`, window frames `68bc404c…7834`, props/figures `310a1df0…3ae5d`.
 
 Test first: print one window frame and dry-fit it in the toy shop's left bow window before printing the second.
 
