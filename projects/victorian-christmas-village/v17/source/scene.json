@@ -1,0 +1,474 @@
+[
+ {
+  "name": "G1-ground-tile-F1.stl",
+  "kind": "tile"
+ },
+ {
+  "name": "G1-ground-tile-F2.stl",
+  "kind": "tile"
+ },
+ {
+  "name": "G1-ground-tile-F3.stl",
+  "kind": "tile"
+ },
+ {
+  "name": "G1-ground-tile-F4.stl",
+  "kind": "tile"
+ },
+ {
+  "name": "G1-ground-tile-B1.stl",
+  "kind": "tile"
+ },
+ {
+  "name": "G1-ground-tile-B2.stl",
+  "kind": "tile"
+ },
+ {
+  "name": "G1-ground-tile-B3.stl",
+  "kind": "tile"
+ },
+ {
+  "name": "G1-ground-tile-B4.stl",
+  "kind": "tile"
+ },
+ {
+  "id": "B2-church",
+  "stl": "print/christmas-village-v16-buildings.3mf (object 01-B2-church-v16-led-tower)",
+  "scale": 1.0,
+  "rot_deg": 41,
+  "location_mm": [
+   201.5,
+   280.4,
+   28.5
+  ],
+  "bounds_mm": [
+   [
+    110.4,
+    195.9,
+    28.5
+   ],
+   [
+    278.6,
+    374.4,
+    291.2
+   ]
+  ],
+  "note": "v15c: one-piece church from B2-church-v15-art-v1 (Meshy), scale 0.9, apron trimmed, hollowed, belfry and spire stretched (+18 mm), underside notched to the printed v12 tiles; v16: tower hollowed (28 x 28 mm shaft to the belfry), lancet window and belfry louvre slits cut through for a tea light"
+ },
+ {
+  "id": "B3-body",
+  "stl": "L2-leaves/B3-toy-shop/B3-toy-shop.L2-body-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 0,
+  "location_mm": [
+   337.0,
+   340.6,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    269.7,
+    279.7,
+    26.5
+   ],
+   [
+    404.3,
+    401.5,
+    153.0
+   ]
+  ]
+ },
+ {
+  "id": "B3-roof",
+  "stl": "L2-leaves/B3-toy-shop/B3-toy-shop.L2-roof-v2_scaled.stl",
+  "scale": 1.5768,
+  "rot_deg": 0,
+  "location_mm": [
+   337.0,
+   340.6,
+   125.0
+  ],
+  "bounds_mm": [
+   [
+    269.9,
+    281.9,
+    125.0
+   ],
+   [
+    404.1,
+    399.3,
+    251.1
+   ]
+  ]
+ },
+ {
+  "id": "B4-bakery",
+  "stl": "print/christmas-village-v17-buildings.3mf (object 06-B4-bakery-v17-gable-ends)",
+  "scale": 1.15,
+  "rot_deg": -25,
+  "location_mm": [
+   472.5,
+   318.1,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    405.7,
+    253.0,
+    26.5
+   ],
+   [
+    538.7,
+    383.6,
+    227.8
+   ]
+  ],
+  "note": "v17: hipped end rebuilt as a gable (the chimney-end gable mirrored onto it, everything above 116 mm), mirrored chimney removed and the snowy ridge continued over it; walls and footprint unchanged"
+ },
+ {
+  "id": "B5-inn",
+  "stl": "L2-leaves/B5-coaching-inn/B5-coaching-inn-v2_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": -45,
+  "location_mm": [
+   593.8,
+   214.8,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    494.4,
+    124.7,
+    26.5
+   ],
+   [
+    687.6,
+    307.3,
+    210.5
+   ]
+  ]
+ },
+ {
+  "id": "B1-cottage",
+  "stl": "L2-leaves/B1-stone-cottage/B1-stone-cottage-v2_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 90,
+  "location_mm": [
+   134.4,
+   150.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    73.3,
+    73.8,
+    26.5
+   ],
+   [
+    195.5,
+    226.2,
+    176.0
+   ]
+  ]
+ },
+ {
+  "id": "B6-cottage",
+  "stl": "print/christmas-village-v17-buildings.3mf (object 09-B6-cottage-v17-porch)",
+  "scale": 1.4,
+  "rot_deg": -95,
+  "location_mm": [
+   684.6,
+   92.5,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    640.8,
+    24.9,
+    26.5
+   ],
+   [
+    739.2,
+    159.1,
+    160.2
+   ]
+  ],
+  "note": "v17: the blank plank walls of the front lean-to opened into a porch: two 4 x 4 mm posts, a 2.5 mm deck, a 15 x 25.5 mm plank door with frame, lintel, knob and step on the house wall; lean-to roof and end walls unchanged"
+ },
+ {
+  "id": "T1-tree",
+  "stl": "L2-leaves/T1-christmas-tree/T1-christmas-tree.L1-v1_scaled.stl",
+  "scale": 1.0,
+  "rot_deg": 0,
+  "location_mm": [
+   390.0,
+   175.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    339.7,
+    124.6,
+    26.5
+   ],
+   [
+    440.3,
+    225.4,
+    186.5
+   ]
+  ]
+ },
+ {
+  "id": "F1-carolers",
+  "stl": "L2-leaves/F1-carolers/F1-carolers-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 0,
+  "location_mm": [
+   330.0,
+   137.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    313.3,
+    127.5,
+    26.5
+   ],
+   [
+    346.7,
+    146.5,
+    72.5
+   ]
+  ]
+ },
+ {
+  "id": "F2-girl",
+  "stl": "L2-leaves/F2-skaters/F2-skaters.L2-girl-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": -60,
+  "location_mm": [
+   333.5,
+   74.2,
+   23.5
+  ],
+  "bounds_mm": [
+   [
+    323.7,
+    63.5,
+    23.5
+   ],
+   [
+    346.3,
+    82.5,
+    61.4
+   ]
+  ]
+ },
+ {
+  "id": "F2-boy",
+  "stl": "L2-leaves/F2-skaters/F2-skaters.L2-boy-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 140,
+  "location_mm": [
+   383.2,
+   66.9,
+   23.5
+  ],
+  "bounds_mm": [
+   [
+    372.7,
+    57.9,
+    23.5
+   ],
+   [
+    397.3,
+    76.1,
+    58.0
+   ]
+  ]
+ },
+ {
+  "id": "F2-man",
+  "stl": "L2-leaves/F2-skaters/F2-skaters.L2-man-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": -110,
+  "location_mm": [
+   437.2,
+   77.1,
+   23.5
+  ],
+  "bounds_mm": [
+   [
+    423.5,
+    66.7,
+    23.5
+   ],
+   [
+    452.5,
+    91.3,
+    64.9
+   ]
+  ]
+ },
+ {
+  "id": "F3-sleigh",
+  "stl": "L2-leaves/F3-horse-sleigh/F3-horse-sleigh-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": -45,
+  "location_mm": [
+   243.5,
+   126.7,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    204.3,
+    87.3,
+    26.5
+   ],
+   [
+    285.7,
+    168.7,
+    78.2
+   ]
+  ]
+ },
+ {
+  "id": "F4-snowman",
+  "stl": "L2-leaves/F4-snowman-children/F4-snowman-children-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": -45,
+  "location_mm": [
+   497.6,
+   152.2,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    475.5,
+    125.0,
+    26.5
+   ],
+   [
+    518.5,
+    179.0,
+    72.5
+   ]
+  ]
+ },
+ {
+  "id": "F5-chestnut",
+  "stl": "L2-leaves/F5-chestnut-seller/F5-chestnut-seller-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 0,
+  "location_mm": [
+   560.0,
+   78.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    539.1,
+    57.0,
+    26.5
+   ],
+   [
+    580.9,
+    99.0,
+    70.2
+   ]
+  ]
+ },
+ {
+  "id": "P1-lamp-a",
+  "stl": "L2-leaves/P1-lamp-post/P1-lamp-post-v2_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 0,
+  "location_mm": [
+   178.0,
+   62.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    157.8,
+    50.4,
+    26.5
+   ],
+   [
+    198.2,
+    73.6,
+    118.5
+   ]
+  ]
+ },
+ {
+  "id": "P1-lamp-b",
+  "stl": "L2-leaves/P1-lamp-post/P1-lamp-post-v2_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 0,
+  "location_mm": [
+   552.0,
+   151.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    531.8,
+    139.4,
+    26.5
+   ],
+   [
+    572.2,
+    162.6,
+    118.5
+   ]
+  ]
+ },
+ {
+  "id": "T2-fir-a",
+  "stl": "L2-leaves/T2-small-fir/T2-small-fir-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 0,
+  "location_mm": [
+   118.0,
+   262.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    97.9,
+    242.6,
+    26.5
+   ],
+   [
+    138.1,
+    281.4,
+    107.0
+   ]
+  ]
+ },
+ {
+  "id": "T2-fir-b",
+  "stl": "L2-leaves/T2-small-fir/T2-small-fir-v1_scaled.stl",
+  "scale": 1.15,
+  "rot_deg": 0,
+  "location_mm": [
+   772.0,
+   235.0,
+   26.5
+  ],
+  "bounds_mm": [
+   [
+    751.9,
+    215.6,
+    26.5
+   ],
+   [
+    792.1,
+    254.4,
+    107.0
+   ]
+  ]
+ }
+]
