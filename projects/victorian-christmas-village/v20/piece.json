@@ -1,0 +1,64 @@
+{
+  "piece_json": 1,
+  "slug": "victorian-christmas-village",
+  "version": "v20",
+  "title": "Victorian Christmas village",
+  "kind": "diorama",
+  "status": "prototype",
+  "rights": {
+    "design": "ai-assisted",
+    "ip": "none",
+    "licence": "all-rights-reserved"
+  },
+  "description": "A snowy Victorian Christmas village on an 840 x 420 mm base of 8 magnet-jointed tiles: a 263 mm one-piece church with its bell tower standing in front of the nave, hollowed for a puck light and with a hollow tower lit by a battery tea light through its lancet window and belfry louvres, plus an inn, a bakery with stone gables at both ends, a timber cottage with a decorated front porch, another cottage and a toy shop for FDM, with glue-on resin frames for the toy shop bow windows, and a 160 mm tree, lamps, firs and figures for resin. Built with the scene workflow using Meshy meshes (1135 credits). The base tiles have been printed.",
+  "themes": [
+    "victorian",
+    "villages"
+  ],
+  "occasions": [
+    "christmas",
+    "winter"
+  ],
+  "tags": [
+    "modular-tiles",
+    "magnets",
+    "lit-buildings",
+    "meshy",
+    "hand-painted"
+  ],
+  "size_mm": {
+    "x": 840,
+    "y": 420,
+    "z": 291
+  },
+  "material": "White PLA and resin, hand painted",
+  "source": {
+    "repo": "davidray/bookwyrm-dioramas"
+  },
+  "components": [
+    {
+      "name": "Base tiles (8, magnet pockets)",
+      "file": "print/christmas-village-v12-base-tiles.3mf",
+      "printer": "Bambu Lab (FDM)",
+      "material": "White PLA"
+    },
+    {
+      "name": "Buildings: one-piece church with lit tower, B3 toy shop body and roof (v20, smaller roof that nests on the body), bakery (v19, Meshy, stone gables at both ends), inn, B1 cottage and B6 cottage (v19, Meshy, open decorated porch)",
+      "file": "print/christmas-village-v20-buildings.3mf",
+      "printer": "Bambu Lab H2D class (FDM, over 256 mm build height for the church)",
+      "material": "White PLA"
+    },
+    {
+      "name": "Toy shop bow window frames (2, glue-on)",
+      "file": "../v17/print/christmas-village-v17-window-frames.3mf",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+    },
+    {
+      "name": "Props and figures (10 objects, 12 prints)",
+      "file": "print/christmas-village-v12-props-figures.3mf",
+      "printer": "Elegoo Saturn 4 Ultra 12K",
+      "material": "Resin"
+    }
+  ]
+}
